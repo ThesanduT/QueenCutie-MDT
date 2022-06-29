@@ -43,7 +43,7 @@ global.footer = 'Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ.'
 
 global.ig = 'https://github.com/ThesanduT/QueenCutie-MD'
 
-global.region = '*╚═══❖•ೋ°Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ°ೋ•❖═══╝*'
+global.region = '*╚═══❖•Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ•❖═══╝*'
 
 global.sc = 'https://github.com/ThesanduT/QueenCutie-MD'
 
