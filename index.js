@@ -1,12 +1,7 @@
-//═══════════════════════════════════════════════════════//
-//
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
-//
-//════════════════════════════//
+*/QueenCutie-MD
 
 require('./settings')
-const { default: NexusNwIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: TTMCutieConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
@@ -56,103 +51,103 @@ if (global.db) setInterval(async () => {
     if (global.db.data) await global.db.write()
   }, 30 * 1000)
 
-async function startGojoMdNx() {
-    const GojoMdNx = NexusNwIncConnect({
+async function startCutieTTM() {
+    const CutieTTM = TTMCutieConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['Gojo Satoru\Nexus','Safari','1.0.0'],
         auth: state
     })
 
-    store.bind(GojoMdNx.ev)
+    store.bind(CutieTTM.ev)
     
     // anticall auto block
-    GojoMdNx.ws.on('CB:call', async (json) => {
+    CutieTTM.ws.on('CB:call', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
-    let pa7rick = await GojoMdNx.sendContact(callerId, global.owner)
-    GojoMdNx.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : pa7rick })
+    let pa7rick = await CutieTTM.sendContact(callerId, global.owner)
+    CutieTTM.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : pa7rick })
     await sleep(8000)
-    await GojoMdNx.updateBlockStatus(callerId, "block")
+    await CutieTTM.updateBlockStatus(callerId, "block")
     }
     })
 
-    GojoMdNx.ev.on('messages.upsert', async chatUpdate => {
+    CutieTTM.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
         try {
         mek = chatUpdate.messages[0]
         if (!mek.message) return
         mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
         if (mek.key && mek.key.remoteJid === 'status@broadcast') return
-        if (!GojoMdNx.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+        if (!CutieTTM.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-        m = smsg(GojoMdNx, mek, store)
-        require("./Balck Panthe DB")(GojoMdNx, m, chatUpdate, store)
+        m = smsg(CutieTTM, mek, store)
+        require("./Cutie")(CutieTTM, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
     })
     
     // Group Update
-    GojoMdNx.ev.on('groups.update', async pea => {
+    CutieTTM.ev.on('groups.update', async pea => {
        //console.log(pea)
     // Get Profile Picture Group
        try {
-       ppgc = await GojoMdNx.profilePictureUrl(pea[0].id, 'image')
+       ppgc = await CutieTTM.profilePictureUrl(pea[0].id, 'image')
        } catch {
        ppgc = 'https://shortlink.GojoMdNxarridho.my.id/rg1oT'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       GojoMdNx.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
+       CutieTTM.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       GojoMdNx.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
+       CutieTTM.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `Group Settings Change Message`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       GojoMdNx.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
+       CutieTTM.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       GojoMdNx.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
+       CutieTTM.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `Group Settings Change Message`, wm_fatih, [])
        } else {
-       GojoMdNx.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `Group Settings Change Message`, wm_fatih, [])
+       CutieTTM.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `Group Settings Change Message`, wm_fatih, [])
      }
     })
 
-    GojoMdNx.ev.on('group-participants.update', async (anu) => {
+    CutieTTM.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         try {
-            let metadata = await GojoMdNx.groupMetadata(anu.id)
+            let metadata = await CutieTTM.groupMetadata(anu.id)
             let participants = anu.participants
             for (let num of participants) {
                 // Get Profile Picture User
                 try {
-                    ppuser = await GojoMdNx.profilePictureUrl(num, 'image')
+                    ppuser = await CutieTTM.profilePictureUrl(num, 'image')
                 } catch {
                     ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 
                 //Get Profile Picture Group\\
                 try {
-                    ppgroup = await GojoMdNx.profilePictureUrl(anu.id, 'image')
+                    ppgroup = await CutieTTM.profilePictureUrl(anu.id, 'image')
                 } catch {
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 
 //welcome\\
-        let nama = await GojoMdNx.getName(num)
+        let nama = await CutieTTM.getName(num)
 memb = metadata.participants.length
 
 Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
 
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
-                    GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ Hi👋 @${num.split("@")[0]},
-⭐✑ Welcome To ${metadata.subject}
+                    CutieTTM.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
+✑ Hi! @${num.split("@")[0]},
+✑ Welcome To ${metadata.subject}
 
-⭐✑ Description: ${metadata.desc}
+✑ Description: ${metadata.desc}
 
-⭐✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
                 } else if (anu.action == 'remove') {
-                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
+                    CutieTTM.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
 ⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
                 }
@@ -163,7 +158,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
     })
 	
     //Setting\\
-    GojoMdNx.decodeJid = (jid) => {
+    CutieTTM.decodeJid = (jid) => {
         if (!jid) return jid
         if (/:\d+@/gi.test(jid)) {
             let decode = jidDecode(jid) || {}
@@ -171,44 +166,44 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
         } else return jid
     }
     
-    GojoMdNx.ev.on('contacts.update', update => {
+    CutieTTM.ev.on('contacts.update', update => {
         for (let contact of update) {
-            let id = GojoMdNx.decodeJid(contact.id)
+            let id = CutieTTM.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    GojoMdNx.getName = (jid, withoutContact  = false) => {
-        id = GojoMdNx.decodeJid(jid)
-        withoutContact = GojoMdNx.withoutContact || withoutContact 
+    CutieTTM.getName = (jid, withoutContact  = false) => {
+        id = CutieTTM.decodeJid(jid)
+        withoutContact = CutieTTM.withoutContact || withoutContact 
         let v
         if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
             v = store.contacts[id] || {}
-            if (!(v.name || v.subject)) v = GojoMdNx.groupMetadata(id) || {}
+            if (!(v.name || v.subject)) v = CutieTTM.groupMetadata(id) || {}
             resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
         })
         else v = id === '0@s.whatsapp.net' ? {
             id,
             name: 'WhatsApp'
-        } : id === GojoMdNx.decodeJid(GojoMdNx.user.id) ?
-            GojoMdNx.user :
+        } : id === CutieTTM.decodeJid(CutieTTM.user.id) ?
+            CutieTTM.user :
             (store.contacts[id] || {})
             return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-    GojoMdNx.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+    CutieTTM.sendContact = async (jid, kon, quoted = '', opts = {}) => {
 	let list = []
 	for (let i of kon) {
 	    list.push({
-	    	displayName: await GojoMdNx.getName(i + '@s.whatsapp.net'),
+	    	displayName: await CutieTTM.getName(i + '@s.whatsapp.net'),
 	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:${sc}\nitem2.X-ABLabel:Script\nitem3.URL:${myweb}\nitem3.X-ABLabel:Script\nitem4.ADR:;;${region};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
-	GojoMdNx.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
+	CutieTTM.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
     }
     
-    GojoMdNx.setStatus = (status) => {
-        GojoMdNx.query({
+    CutieTTM.setStatus = (status) => {
+        CutieTTM.query({
             tag: 'iq',
             attrs: {
                 to: '@s.whatsapp.net',
@@ -224,27 +219,27 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
         return status
     }
 	
-    GojoMdNx.public = true
+    CutieTTM.public = true
 
-    GojoMdNx.serializeM = (m) => smsg(GojoMdNx, m, store)
+    CutieTTM.serializeM = (m) => smsg(CutieTTM, m, store)
 
-    GojoMdNx.ev.on('connection.update', async (update) => {
+    CutieTTM.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output.statusCode
-            if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); GojoMdNx.logout(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("🐦Connection closed, reconnecting...."); startGojoMdNx(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("🐦Connection Lost from Server, reconnecting..."); startGojoMdNx(); }
-            else if (reason === DisconnectReason.connectionReplaced) { console.log("🐦Connection Replaced, Another New Session Opened, Please Close Current Session First"); GojoMdNx.logout(); }
-            else if (reason === DisconnectReason.loggedOut) { console.log(`🐦Device Logged Out, Please Scan Again And Run.`); GojoMdNx.logout(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("🐦Restart Required, Restarting..."); startGojoMdNx(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("🐦Connection TimedOut, Reconnecting..."); startGojoMdNx(); }
-            else GojoMdNx.end(`🐦Unknown DisconnectReason: ${reason}|${connection}`)
+            if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); CutieTTM.logout(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, reconnecting...."); startCutieTTM(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, reconnecting..."); startCutieTTM(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); CutieTTM.logout(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Scan Again And Run.`); CutieTTM.logout(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startCutieTTM(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startCutieTTM(); }
+            else CutieTTM.end(`Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
     })
 
-    GojoMdNx.ev.on('creds.update', saveState)
+    CutieTTM.ev.on('creds.update', saveState)
 
     // Add Other
     /** Send Button 5 Image
@@ -257,8 +252,8 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options
      * @returns
      */
-    GojoMdNx.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
-        let message = await prepareWAMessageMedia({ image: img }, { upload: GojoMdNx.waUploadToServer })
+    CutieTTM.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
+        let message = await prepareWAMessageMedia({ image: img }, { upload: CutieTTM.waUploadToServer })
         var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
         templateMessage: {
         hydratedTemplate: {
@@ -269,7 +264,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             }
             }
             }), options)
-            GojoMdNx.relayMessage(jid, template.message, { messageId: template.key.id })
+            CutieTTM.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -281,7 +276,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} quoted 
      * @param {*} options 
      */
-    GojoMdNx.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+    CutieTTM.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
         let buttonMessage = {
             text,
             footer,
@@ -289,7 +284,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             headerType: 2,
             ...options
         }
-        GojoMdNx.sendMessage(jid, buttonMessage, { quoted, ...options })
+        CutieTTM.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
     
     /**
@@ -300,7 +295,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendText = (jid, text, quoted = '', options) => GojoMdNx.sendMessage(jid, { text: text, ...options }, { quoted })
+    CutieTTM.sendText = (jid, text, quoted = '', options) => CutieTTM.sendMessage(jid, { text: text, ...options }, { quoted })
 
     /**
      * 
@@ -311,9 +306,9 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendImage = async (jid, path, caption = '', quoted = '', options) => {
+    CutieTTM.sendImage = async (jid, path, caption = '', quoted = '', options) => {
 	let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await GojoMdNx.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
+        return await CutieTTM.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
     }
 
     /**
@@ -325,9 +320,9 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
+    CutieTTM.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await GojoMdNx.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
+        return await CutieTTM.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
     }
 
     /**
@@ -339,9 +334,9 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
+    CutieTTM.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await GojoMdNx.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
+        return await CutieTTM.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
     }
 
     /**
@@ -352,7 +347,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendTextWithMentions = async (jid, text, quoted, options = {}) => GojoMdNx.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+    CutieTTM.sendTextWithMentions = async (jid, text, quoted, options = {}) => CutieTTM.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
 
     /**
      * 
@@ -362,7 +357,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
+    CutieTTM.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -371,7 +366,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             buffer = await imageToWebp(buff)
         }
 
-        await GojoMdNx.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await CutieTTM.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 
@@ -383,7 +378,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
+    CutieTTM.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -392,7 +387,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             buffer = await videoToWebp(buff)
         }
 
-        await GojoMdNx.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await CutieTTM.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 	
@@ -403,7 +398,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} attachExtension 
      * @returns 
      */
-    GojoMdNx.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
+    CutieTTM.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
         let quoted = message.msg ? message.msg : message
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
@@ -419,7 +414,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
         return trueFileName
     }
 
-    GojoMdNx.downloadMediaMessage = async (message) => {
+    CutieTTM.downloadMediaMessage = async (message) => {
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
         const stream = await downloadContentFromMessage(message, messageType)
@@ -441,8 +436,8 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
-        let types = await GojoMdNx.getFile(path, true)
+    CutieTTM.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+        let types = await CutieTTM.getFile(path, true)
            let { mime, ext, res, data, filename } = types
            if (res && res.status !== 200 || file.length <= 65536) {
                try { throw { json: JSON.parse(file.toString()) } }
@@ -462,7 +457,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
        else if (/video/.test(mime)) type = 'video'
        else if (/audio/.test(mime)) type = 'audio'
        else type = 'document'
-       await GojoMdNx.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
+       await CutieTTM.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
        return fs.promises.unlink(pathFile)
        }
 
@@ -474,7 +469,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    GojoMdNx.copyNForward = async (jid, message, forceForward = false, options = {}) => {
+    CutieTTM.copyNForward = async (jid, message, forceForward = false, options = {}) => {
         let vtype
 		if (options.readViewOnce) {
 			message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
@@ -505,11 +500,11 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 }
             } : {})
         } : {})
-        await GojoMdNx.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
+        await CutieTTM.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
         return waMessage
     }
 
-    GojoMdNx.cMod = (jid, copy, text = '', sender = GojoMdNx.user.id, options = {}) => {
+    CutieTTM.cMod = (jid, copy, text = '', sender = CutieTTM.user.id, options = {}) => {
         //let copy = message.toJSON()
 		let mtype = Object.keys(copy.message)[0]
 		let isEphemeral = mtype === 'ephemeralMessage'
@@ -530,7 +525,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 		if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
 		else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
 		copy.key.remoteJid = jid
-		copy.key.fromMe = sender === GojoMdNx.user.id
+		copy.key.fromMe = sender === CutieTTM.user.id
 
         return proto.WebMessageInfo.fromObject(copy)
     }
@@ -541,7 +536,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} path 
      * @returns 
      */
-    GojoMdNx.getFile = async (PATH, save) => {
+    CutieTTM.getFile = async (PATH, save) => {
         let res
         let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,`[1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
         //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
@@ -561,10 +556,10 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 
     }
 
-    return GojoMdNx
+    return CutieTTM
 }
 
-startGojoMdNx()
+startCutieTTM()
 
 
 let file = require.resolve(__filename)
