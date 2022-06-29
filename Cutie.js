@@ -3298,15 +3298,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./CutieMedia/Cutie.jpg')},
                             hydratedFooterText: `╭───╼ ○◤ ${global.botname} ◢
 ║ ╽     
-║ ▢ *Hi* : @${pushname}
-║ ▢ *𝗦𝗽𝗲𝗲𝗱* : ${latensie.toFixed(4)} miliseconds
-║ ▢ *𝗥𝘂𝗻𝘁𝗶𝗺𝗲* : ${runtime(process.uptime())}
-║ ▢ *𝗕𝗼𝘁 𝗡𝗮𝗺𝗲* : ${global.botname}
-║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲* : ${global.ownername}
-║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿* : ${global.owner}
-║ ▢ *𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲* : ${os.hostname()}
-║ ▢ *𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺* : ${os.platform()}
-║ ▢ *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.data.users).length}
+║ ▢ Hi : @${pushname}
+║ ▢ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+║ ▢ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+║ ▢ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+║ ▢ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+║ ▢ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+║ ▢ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+║ ▢ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+║ ▢ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 ║
 ║
 ╚═══♡Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ`,
@@ -3355,15 +3355,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `
 ╭───╼ ○◤ ${global.botname} ◢
 ║ ╽     
-║ ▢ *Hi* : @${pushname}
-║ ▢ *𝗦𝗽𝗲𝗲𝗱* : ${latensie.toFixed(4)} miliseconds
-║ ▢ *𝗥𝘂𝗻𝘁𝗶𝗺𝗲* : ${runtime(process.uptime())}
-║ ▢ *𝗕𝗼𝘁 𝗡𝗮𝗺𝗲* : ${global.botname}
-║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲* : ${global.ownername}
-║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿* : ${global.owner}
-║ ▢ *𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲* : ${os.hostname()}
-║ ▢ *𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺* : ${os.platform()}
-║ ▢ *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.data.users).length}
+║ ▢ Hi : @${pushname}
+║ ▢ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+║ ▢ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+║ ▢ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+║ ▢ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+║ ▢ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+║ ▢ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+║ ▢ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+║ ▢ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 ║
 ║
 ╚═══♡Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ`,
@@ -3525,7 +3525,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                CutieTTM.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/yQBM4yx/wp1869937.png' }, caption: `*Hi Bro ${m.pushName}*\nDonation section now open💦,♡ Join► https://chat.whatsapp.com/E64FnOpGLrYK9CR3a24uc1 \n` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg' }, caption: `*Hi ${m.pushName}*\nJoin QuernCutie Support Group ► https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7 \n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3819,23 +3819,25 @@ break
 case 'mainmenu':
 var unicorn = await getBuffer(picak+'Main Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ MAIN ◢
-┋⫸ ${prefix}alive
-┋⫸ ${prefix}script
-┋⫸ ${prefix}speedtest
-┋⫸ ${prefix}ping
-┋⫸ ${prefix}owner
-┋⫸ ${prefix}menu
-┋⫸ ${prefix}delete
-┋⫸ ${prefix}chatinfo
-┋⫸ ${prefix}quoted
-┋⫸ ${prefix}listpc
-┋⫸ ${prefix}listgc
-┋⫸ ${prefix}donate
-┋⫸ ${prefix}report [bug]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ MAIN MENU◢
+║
+║▢ ${prefix}alive
+║▢ ${prefix}script
+║▢ ${prefix}speedtest
+║▢ ${prefix}ping
+║▢ ${prefix}owner
+║▢ ${prefix}menu
+║▢ ${prefix}delete
+║▢ ${prefix}chatinfo
+║▢ ${prefix}quoted
+║▢ ${prefix}listpc
+║▢ ${prefix}listgc
+║▢ ${prefix}donate
+║▢ ${prefix}report [bug]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
