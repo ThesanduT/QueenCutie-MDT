@@ -1,0 +1,53 @@
+{
+
+  "name": "Black Panther Multi Device Bot",
+
+  "description": "whatsapp md bot build with nodejs",
+
+  "repository": "https://github.com/BlackPanther-svg/BLACK-PANTHER-MD-V2",
+
+  "logo": "https://i.ibb.co/yQBM4yx/wp1869937.png",
+
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+
+  "buildpacks": [
+
+    {
+
+      "url": "heroku/nodejs"
+
+    },
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    },
+
+    {
+
+            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+
+        },
+
+    {
+
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+
+    }
+
+  ],
+
+   "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
