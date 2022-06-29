@@ -3281,7 +3281,7 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	CutieTTM.sendMessage(`918129624395@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	CutieTTM.sendMessage(`94778763517@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3296,48 +3296,43 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./CutieMedia/Cutie.jpg')},
-                            hydratedFooterText: `┌─❖
-│◤ Hi 👋 ◢
-└┬❖ ◤ ${pushname} ◢
-┌┤✑  𝗠𝘂𝗹𝘁𝗶 𝗗𝗲𝘃𝗶𝗰𝗲 𝗕𝗼𝘁🎉
-││✑  🖤🖐️!!
-│└───────────────┈ ⳹
-│ ◤ BOT INFO ◢
-│☬ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│☬ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│☬ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│☬ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│☬ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│☬ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│☬ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│☬ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
-   └───────────────┈ ⳹
- 🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚`,
+                            hydratedFooterText: `╭───╼ ○◤ ${global.botname} ◢
+║ ╽     
+║ ▢ *Hi* : @${pushname}
+║ ▢ *𝗦𝗽𝗲𝗲𝗱* : ${latensie.toFixed(4)} miliseconds
+║ ▢ *𝗥𝘂𝗻𝘁𝗶𝗺𝗲* : ${runtime(process.uptime())}
+║ ▢ *𝗕𝗼𝘁 𝗡𝗮𝗺𝗲* : ${global.botname}
+║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲* : ${global.ownername}
+║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿* : ${global.owner}
+║ ▢ *𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲* : ${os.hostname()}
+║ ▢ *𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺* : ${os.platform()}
+║ ▢ *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.data.users).length}
+║
+║
+╚═══♡Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'ＧＩＴＨＵＢ ＳＣ',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '♡Black Panther🖤',
+                                displayText: 'ＣＲＥＡＴＯＲ',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
-                                    id: `${prefix}allmenu`
-                                }
-                                }, {
-                                quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: 'ＬＩＳＴ ＭＥＮＵ',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: 'ＡＬＬ ＭＥＮＵ',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'ＯＷＮＥＲ',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3358,47 +3353,43 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./CutieMedia/Cutie.jpg')}, 
                             hydratedFooterText: `
-┌─❖
-│◤ Hi 👋 ◢
-└┬❖ ◤ ${pushname} ◢
-┌┤✑  Multi Device Bot
-│└───────────────┈ ⳹
-│ ◤ BOT INFO ◢
-│☬ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│☬ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│☬ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│☬ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│☬ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│☬ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│☬ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│☬ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
-   └───────────────┈ ⳹
-🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚`,
+╭───╼ ○◤ ${global.botname} ◢
+║ ╽     
+║ ▢ *Hi* : @${pushname}
+║ ▢ *𝗦𝗽𝗲𝗲𝗱* : ${latensie.toFixed(4)} miliseconds
+║ ▢ *𝗥𝘂𝗻𝘁𝗶𝗺𝗲* : ${runtime(process.uptime())}
+║ ▢ *𝗕𝗼𝘁 𝗡𝗮𝗺𝗲* : ${global.botname}
+║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲* : ${global.ownername}
+║ ▢ *𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿* : ${global.owner}
+║ ▢ *𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲* : ${os.hostname()}
+║ ▢ *𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺* : ${os.platform()}
+║ ▢ *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.data.users).length}
+║
+║
+╚═══♡Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'ＧＩＴＨＵＢ ＳＣ',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '♡Black Panther🖤',
+                                displayText: 'ＣＲＥＡＴＯＲ',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
-                                    id: `${prefix}allmenu`
-                                }
-                                }, {
-                                quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'ＬＩＳＴ ＭＥＮＵ',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🖤',
+                                    displayText: 'ＡＬＬ ＭＥＮＵ',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'ＯＷＮＥＲ',
                                     id: `${prefix}owner`
                                 }
                             }]
