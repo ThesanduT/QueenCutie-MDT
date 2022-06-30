@@ -72,7 +72,9 @@ Created by `THESANDU THEWSARA`
 <div align="center"> 
 
 
-  ### Simple Method
+  ### Follow this steps to deploy this bot
+  
+[![Fork](https://th.bing.com/th/id/R.42eae59e24818d1c6d7c6b1f1bd1d53b?rik=rhrKky9vzklbgw&riu=http%3a%2f%2fwww.ukspousevisahelp.com%2fwp-content%2fuploads%2f2016%2f02%2fclick_here.png&ehk=2pOIZdyuDp8t1pEOxJQ87LuqeJjd7p1falqPXvpqX7Y%3d&risl=&pid=ImgRaw&r=0)
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TthesanduT/QueenCutie-MD)
   
