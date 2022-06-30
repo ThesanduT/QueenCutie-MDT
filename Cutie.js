@@ -3525,11 +3525,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                CutieTTM.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg' }, caption: `*Hi ${m.pushName}*\nJoin QuernCutie Support Group ► https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7 \n` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg' }, caption: `*Hi ${m.pushName}*\nJoin QueenCutie Support Group ► https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7 \n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/BlackPanther-svg/BLACK-PANTHER-MD-V2\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/ThesanduT/QueenCutie-MD\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
 case 'allmenu': {
@@ -3843,48 +3843,52 @@ break
 case 'grupmenu': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ GROUP ◢	        
-┋⫸${prefix}grouplink
-┋⫸${prefix}ephemeral [option]
-┋⫸${prefix}setgcpp [image]
-┋⫸${prefix}setname [text]
-┋⫸${prefix}setdesc [text]
-┋⫸${prefix}group [text]
-┋⫸${prefix}editinfo [option]
-┋⫸${prefix}add [user]
-┋⫸${prefix}kick [reply/tag]
-┋⫸${prefix}hidetag [text]
-┋⫸${prefix}tagall [text]
-┋⫸${prefix}antilink [on/off]
-┋⫸${prefix}mute [on/off]
-┋⫸${prefix}promote [reply/tag]
-┋⫸${prefix}demote [reply/tag]
-┋⫸${prefix}vote
-┋⫸${prefix}devote
-┋⫸${prefix}upvote
-┋⫸${prefix}checkvote
-┋⫸${prefix}delvote
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ GROUP MENU ◢  
+║      
+║▢ ${prefix}grouplink
+║▢ ${prefix}ephemeral [option]
+║▢ ${prefix}setgcpp [image]
+║▢ ${prefix}setname [text]
+║▢ ${prefix}setdesc [text]
+║▢ ${prefix}group [text]
+║▢ ${prefix}editinfo [option]
+║▢ ${prefix}add [user]
+║▢ ${prefix}kick [reply/tag]
+║▢ ${prefix}hidetag [text]
+║▢ ${prefix}tagall [text]
+║▢ ${prefix}antilink [on/off]
+║▢ ${prefix}mute [on/off]
+║▢ ${prefix}promote [reply/tag]
+║▢ ${prefix}demote [reply/tag]
+║▢ ${prefix}vote
+║▢ ${prefix}devote
+║▢ ${prefix}upvote
+║▢ ${prefix}checkvote
+║▢ ${prefix}delvote
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ RPG ◢	        
-┋⫸${prefix}hunting
-┋⫸${prefix}mining
-┋⫸${prefix}heal
-┋⫸${prefix}limituser
-┋⫸${prefix}profile
-┋⫸${prefix}inventory
-┋⫸${prefix}leaderboard
-┋⫸${prefix}buy [option]
-┋⫸${prefix}sell [option]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║      ◤ RPG MENU ◢	
+║        
+║▢ ${prefix}hunting
+║▢ ${prefix}mining
+║▢ ${prefix}heal
+║▢ ${prefix}limituser
+║▢ ${prefix}profile
+║▢ ${prefix}inventory
+║▢ ${prefix}leaderboard
+║▢ ${prefix}buy [option]
+║▢ ${prefix}sell [option]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 
 case 'funmenu':
