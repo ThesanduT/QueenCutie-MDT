@@ -14,7 +14,7 @@ const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
-const nexusnw = require('xfarr-api')
+const tcutienew = require('xfarr-api')
 
 //rpg function\\
    const { 
@@ -99,7 +99,7 @@ const nexusnw = require('xfarr-api')
    const isInventoriBuruan = cekDuluHasilBuruanNya(m.sender)
    const isInventoryLimit = cekDuluJoinAdaApaKagaLimitnyaDiJson(m.sender)
    const isInventoryMonay = cekDuluJoinAdaApaKagaMonaynyaDiJson(m.sender)
-   const ikan = ['☘','🧚','🖤']   
+   const ikan = ['☘','🧚','▷']   
 
 //rpg database\\
  let _limit = JSON.parse(fs.readFileSync('./storage/user/limit.json'));
@@ -248,9 +248,9 @@ const reply = (teks) => {
         let gclink = (`https://chat.whatsapp.com/`+await CutieTTM.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
-        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link🖤`)
-        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group🖤`)
-        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh🖤`)
+        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link▷`)
+        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group▷`)
+        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😌, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh😏`)
         CutieTTM.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
@@ -1151,7 +1151,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
             let jodoh = member[Math.floor(Math.random() * member.length)]
             let jawab = `👩‍❤️‍💋‍👨Your Match Is
 
-@${me.split('@')[0]} 🖤 @${jodoh.split('@')[0]}`
+@${me.split('@')[0]} ▷ @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
                         { buttonId: '🌝♥️', buttonText: { displayText: '🌝♥️' }, type: 1 }
@@ -1320,11 +1320,11 @@ CutieTTM.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, 
 case 'wangy':
               if (!text) return replay(`Use Text, Example : ${prefix + command} hinata`)
               qq = q.toUpperCase()
-              awikwok = `${qq} ${qq} ${qq} 🖤 🖤 🖤 WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too 🖤 🖤 🖤 so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH 🖤 🖤 🖤what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. 🖤 🖤 🖤 ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah 🖤 🖤 🖤 YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
+              awikwok = `${qq} ${qq} ${qq} ▷ ▷ ▷ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ▷ ▷ ▷ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ▷ ▷ ▷what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ▷ ▷ ▷ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ▷ ▷ ▷ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
              reply(awikwok)
               break
 case 'checkdeath':
-             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} nexus`)
+             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} QueenCutie`)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               reply(`Name : ${predea.data.name}\n*Dead At Age :* ${predea.data.age} Year.\n\n_Quick, Quick, Repent Bro, Because No One Knows About Death_`)
               break
@@ -1364,7 +1364,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                if (!text) return replay(`Example : ${prefix + command} packname|author`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          reply(`Exif Has Been Successfully Changed to\n\n🖤 Packname : ${global.packname}\n🖤 Author : ${global.author}`)
+          reply(`Exif Has Been Successfully Changed to\n\n▷ Packname : ${global.packname}\n▷ Author : ${global.author}`)
             }
             break
 	case 'kick': {
@@ -1748,7 +1748,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Nexus Handsome`)
+                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Queen Cutie `)
                 let getGroups = await CutieTTM.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1784,7 +1784,7 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Nexus`)
+                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} QueenCutie`)
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Send Broadcast To ${anu.length} Chat\nFinish Time ${anu.length * 1.5} Seconds`)
 		for (let yoi of anu) {
@@ -2034,7 +2034,7 @@ break
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `🖤 No : ${no++}\n🖤 Type : ${i.type}\n🖤 Video ID : ${i.videoId}\n🖤 Title : ${i.title}\n🖤 Views : ${i.views}\n🖤 Duration : ${i.timestamp}\n🖤 Uploaded On : ${i.ago}\n🖤 Author : ${i.author.name}\n🖤 Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `♡ No : ${no++}\n♡ Type : ${i.type}\n♡ Video ID : ${i.videoId}\n♡ Title : ${i.title}\n♡ Views : ${i.views}\n♡ Duration : ${i.timestamp}\n♡ Uploaded On : ${i.ago}\n♡ Author : ${i.author.name}\n♡ Url : ${i.url}\n\n─────────────────\n\n`
                 }
                 CutieTTM.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2045,9 +2045,9 @@ break
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
                 for (let g of res) {
-                teks += `🖤 *Title* : ${g.title}\n`
-                teks += `🖤 *Description* : ${g.snippet}\n`
-                teks += `🖤 *Link* : ${g.link}\n\n────────────────────────\n\n`
+                teks += `▢ *Title* : ${g.title}\n`
+                teks += `▢ *Description* : ${g.snippet}\n`
+                teks += `▢ *Link* : ${g.link}\n\n────────────────────────\n\n`
                 } 
                 reply(teks)
                 })
@@ -2160,7 +2160,7 @@ break
 case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
-                nexusnw.Webtoons(q).then(async data => {
+                tcutienew.Webtoons(q).then(async data => {
                     let txt = `*◤ WEBTOONS-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2178,7 +2178,7 @@ case 'webtonsearch': case 'webtoon':
             case 'drakorxxx':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
-                nexusnw.Drakor(`${text}`).then(async data => {
+                tcutienew.Drakor(`${text}`).then(async data => {
                     let txt = `*◤ DRAKOR-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2195,7 +2195,7 @@ case 'webtonsearch': case 'webtoon':
             case 'animexxx':{
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
-                nexusnw.Anime(q).then(async data => {
+                tcutienew.Anime(q).then(async data => {
                     let txt = `*◤ ANIME-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2220,7 +2220,7 @@ case 'webtonsearch': case 'webtoon':
             case 'characterxxx': case 'karakterxxx':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
-                nexusnw.Character(q).then(async data => {
+                tcutienew.Character(q).then(async data => {
                     let txt = `*◤ CHARACTER-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Character :* ${i.character}\n`
@@ -2244,7 +2244,7 @@ case 'webtonsearch': case 'webtoon':
             case 'manga':
                 if (!text) return reply(`What Manga Are You Looking For??`)
                 await reply(mess.wait)
-                nexusnw.Manga(`${text}`).then(async data => {
+                tcutienew.Manga(`${text}`).then(async data => {
                     let txt = `*◤ MANGA-SEARCH ◢*\n\n`
                     for (let i of data) {
                          txt += `*📫 Title :* ${i.judul}\n`
@@ -2368,14 +2368,14 @@ case 'webtonsearch': case 'webtoon':
                 if (!Number(text)) return reply(`Example : ${prefix + command} 916909137213`)
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Phone Number :* ${anu.message.nomer_hp}\n🖤 *Shuzi Angka Figures :* ${anu.message.angka_shuzi}\n🖤 *Positive Energy :*\n- Riches : ${anu.message.energi_positif.kekayaan}\n- Health : ${anu.message.energi_positif.kesehatan}\n- Love : ${anu.message.energi_positif.cinta}\n- Stability : ${anu.message.energi_positif.kestabilan}\n- Percentage : ${anu.message.energi_positif.persentase}\n🖤 *Negative Energy :*\n- Dispute : ${anu.message.energi_negatif.perselisihan}\n- Lost : ${anu.message.energi_negatif.kehilangan}\n- Catastrophe : ${anu.message.energi_negatif.malapetaka}\n- Destruction : ${anu.message.energi_negatif.kehancuran}\n- Percentage : ${anu.message.energi_negatif.persentase}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Phone Number :* ${anu.message.nomer_hp}\n▷ *Shuzi Angka Figures :* ${anu.message.angka_shuzi}\n▷ *Positive Energy :*\n- Riches : ${anu.message.energi_positif.kekayaan}\n- Health : ${anu.message.energi_positif.kesehatan}\n- Love : ${anu.message.energi_positif.cinta}\n- Stability : ${anu.message.energi_positif.kestabilan}\n- Percentage : ${anu.message.energi_positif.persentase}\n▷ *Negative Energy :*\n- Dispute : ${anu.message.energi_negatif.perselisihan}\n- Lost : ${anu.message.energi_negatif.kehilangan}\n- Catastrophe : ${anu.message.energi_negatif.malapetaka}\n- Destruction : ${anu.message.energi_negatif.kehancuran}\n- Percentage : ${anu.message.energi_negatif.persentase}`, m)
             }
             break
             case 'artimimpi': case 'tafsirmimpi': {
                 if (!text) return reply(`Example : ${prefix + command} belanja`)
                 let anu = await primbon.tafsir_mimpi(text)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Dream :* ${anu.message.mimpi}\n🖤 *Meaning :* ${anu.message.arti}\n🖤 *Solution :* ${anu.message.solusi}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Dream :* ${anu.message.mimpi}\n▷ *Meaning :* ${anu.message.arti}\n▷ *Solution :* ${anu.message.solusi}`, m)
             }
             break
             case 'ramalanjodoh': case 'ramaljodoh': {
@@ -2383,7 +2383,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Your Name :* ${anu.message.nama_anda.nama}\n🖤 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🖤 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🖤 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Your Name :* ${anu.message.nama_anda.nama}\n▷ *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n▷ *Couple Name :* ${anu.message.nama_pasangan.nama}\n▷ *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
@@ -2391,7 +2391,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Your Name :* ${anu.message.nama_anda.nama}\n🖤 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🖤 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🖤 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Your Name :* ${anu.message.nama_anda.nama}\n▷ *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n▷ *Couple Name :* ${anu.message.nama_pasangan.nama}\n▷ *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'suamiistri': {
@@ -2399,7 +2399,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Husband's Name :* ${anu.message.suami.nama}\n🖤 *Husband Born :* ${anu.message.suami.tgl_lahir}\n🖤 *Wife's Name :* ${anu.message.istri.nama}\n🖤 *Born Wife :* ${anu.message.istri.tgl_lahir}\n🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Husband's Name :* ${anu.message.suami.nama}\n▷ *Husband Born :* ${anu.message.suami.tgl_lahir}\n▷ *Wife's Name :* ${anu.message.istri.nama}\n▷ *Born Wife :* ${anu.message.istri.tgl_lahir}\n▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
@@ -2407,14 +2407,14 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Your Name :* ${anu.message.nama_anda.nama}\n🖤 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🖤 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🖤 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🖤 *Positive Side :* ${anu.message.sisi_positif}\n🖤 *Negative Side :* ${anu.message.sisi_negatif}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Your Name :* ${anu.message.nama_anda.nama}\n▷ *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n▷ *Couple Name :* ${anu.message.nama_pasangan.nama}\n▷ *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n▷ *Positive Side :* ${anu.message.sisi_positif}\n▷ *Negative Side :* ${anu.message.sisi_negatif}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'artinama': {
                 if (!text) throw `Example : ${prefix + command} Dika Ardianta`
                 let anu = await primbon.arti_nama(text)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Meaning :* ${anu.message.arti}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Meaning :* ${anu.message.arti}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'kecocokannama': case 'cocoknama': {
@@ -2422,7 +2422,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Life Path :* ${anu.message.life_path}\n🖤 *Destiny :* ${anu.message.destiny}\n🖤 *Destiny Desire :* ${anu.message.destiny_desire}\n🖤 *Personality :* ${anu.message.personality}\n🖤 *Percentage :* ${anu.message.persentase_kecocokan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Life Path :* ${anu.message.life_path}\n▷ *Destiny :* ${anu.message.destiny}\n▷ *Destiny Desire :* ${anu.message.destiny_desire}\n▷ *Personality :* ${anu.message.personality}\n▷ *Percentage :* ${anu.message.persentase_kecocokan}`, m)
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
@@ -2430,7 +2430,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendImage(m.chat,  anu.message.gambar, `🖤 *Your Name :* ${anu.message.nama_anda}\n🖤 *Couple Name :* ${anu.message.nama_pasangan}\n🖤 *Positive Side :* ${anu.message.sisi_positif}\n🖤 *Negative Side :* ${anu.message.sisi_negatif}`, m)
+                CutieTTM.sendImage(m.chat,  anu.message.gambar, `▷ *Your Name :* ${anu.message.nama_anda}\n▷ *Couple Name :* ${anu.message.nama_pasangan}\n▷ *Positive Side :* ${anu.message.sisi_positif}\n▷ *Negative Side :* ${anu.message.sisi_negatif}`, m)
             }
             break
             case 'jadianpernikahan': case 'jadiannikah': {
@@ -2438,7 +2438,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.tanggal_jadian_pernikahan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Wedding Date :* ${anu.message.tanggal}\n🖤 *Characteristics :* ${anu.message.karakteristik}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Wedding Date :* ${anu.message.tanggal}\n▷ *Characteristics :* ${anu.message.karakteristik}`, m)
             }
             break
             case 'sifatusaha': {
@@ -2446,7 +2446,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_usaha_bisnis(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Born :* ${anu.message.hari_lahir}\n🖤 *Business :* ${anu.message.usaha}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Born :* ${anu.message.hari_lahir}\n▷ *Business :* ${anu.message.usaha}`, m)
             }
             break
             case 'rejeki': case 'rezeki': {
@@ -2454,7 +2454,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Born :* ${anu.message.hari_lahir}\n🖤 *Sustenance :* ${anu.message.rejeki}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Born :* ${anu.message.hari_lahir}\n▷ *Sustenance :* ${anu.message.rejeki}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'pekerjaan': case 'kerja': {
@@ -2462,7 +2462,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Born :* ${anu.message.hari_lahir}\n🖤 *Profession :* ${anu.message.pekerjaan}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Born :* ${anu.message.hari_lahir}\n▷ *Profession :* ${anu.message.pekerjaan}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalannasib': case 'ramalnasib': case 'nasib': {
@@ -2470,7 +2470,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.ramalan_nasib(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Analysis :* ${anu.message.analisa}\n🖤 *Root Number :* ${anu.message.angka_akar}\n🖤 *Nature :* ${anu.message.sifat}\n🖤 *Element :* ${anu.message.elemen}\n🖤 *Lucky Numbers :* ${anu.message.angka_keberuntungan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Analysis :* ${anu.message.analisa}\n▷ *Root Number :* ${anu.message.angka_akar}\n▷ *Nature :* ${anu.message.sifat}\n▷ *Element :* ${anu.message.elemen}\n▷ *Lucky Numbers :* ${anu.message.angka_keberuntungan}`, m)
             }
             break
             case 'potensipenyakit': case 'penyakit': {
@@ -2478,7 +2478,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Analysis :* ${anu.message.analisa}\n🖤 *Sector :* ${anu.message.sektor}\n?? *Element :* ${anu.message.elemen}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Analysis :* ${anu.message.analisa}\n▷ *Sector :* ${anu.message.sektor}\n?? *Element :* ${anu.message.elemen}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'artitarot': case 'tarot': {
@@ -2486,7 +2486,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendImage(m.chat, anu.message.image, `🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Tarot Symbol :* ${anu.message.simbol_tarot}\n🖤 *Meaning :* ${anu.message.arti}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendImage(m.chat, anu.message.image, `▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Tarot Symbol :* ${anu.message.simbol_tarot}\n▷ *Meaning :* ${anu.message.arti}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'fengshui': {
@@ -2494,7 +2494,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Born :* ${anu.message.tahun_lahir}\n🖤 *Gender :* ${anu.message.jenis_kelamin}\n🖤 *Kua Number :* ${anu.message.angka_kua}\n🖤 *Group :* ${anu.message.kelompok}\n🖤 *Character :* ${anu.message.karakter}\n🖤 *Good Sector :* ${anu.message.sektor_baik}\n🖤 *Bad Sector :* ${anu.message.sektor_buruk}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Born :* ${anu.message.tahun_lahir}\n▷ *Gender :* ${anu.message.jenis_kelamin}\n▷ *Kua Number :* ${anu.message.angka_kua}\n▷ *Group :* ${anu.message.kelompok}\n▷ *Character :* ${anu.message.karakter}\n▷ *Good Sector :* ${anu.message.sektor_baik}\n▷ *Bad Sector :* ${anu.message.sektor_buruk}`, m)
             }
             break
             case 'haribaik': {
@@ -2502,7 +2502,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.petung_hari_baik(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *When Challenged :* ${anu.message.kala_tinantang}\n🖤 *Info :* ${anu.message.info}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Born :* ${anu.message.tgl_lahir}\n▷ *When Challenged :* ${anu.message.kala_tinantang}\n▷ *Info :* ${anu.message.info}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'harisangar': case 'taliwangke': {
@@ -2510,7 +2510,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Results :* ${anu.message.result}\n🖤 *Info :* ${anu.message.info}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Results :* ${anu.message.result}\n▷ *Info :* ${anu.message.info}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'harinaas': case 'harisial': {
@@ -2518,7 +2518,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Day Of Birth :* ${anu.message.hari_lahir}\n🖤 *Date Of Birth :* ${anu.message.tgl_lahir}\n🖤 *Fateful Day :* ${anu.message.hari_naas}\n🖤 *Info :* ${anu.message.catatan}\n🖤 *Notes :* ${anu.message.info}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Day Of Birth :* ${anu.message.hari_lahir}\n▷ *Date Of Birth :* ${anu.message.tgl_lahir}\n▷ *Fateful Day :* ${anu.message.hari_naas}\n▷ *Info :* ${anu.message.catatan}\n▷ *Notes :* ${anu.message.info}`, m)
             }
             break
             case 'nagahari': case 'harinaga': {
@@ -2526,7 +2526,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Day Of Birth :* ${anu.message.hari_lahir}\n🖤 *Date Of Birth :* ${anu.message.tgl_lahir}\n🖤 *Dragon Day Direction :* ${anu.message.arah_naga_hari}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Day Of Birth :* ${anu.message.hari_lahir}\n▷ *Date Of Birth :* ${anu.message.tgl_lahir}\n▷ *Dragon Day Direction :* ${anu.message.arah_naga_hari}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
@@ -2534,7 +2534,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Day Of Birth :* ${anu.message.hari_lahir}\n🖤 *Date Of Birth :* ${anu.message.tgl_lahir}\n🖤 *Sustenance Direction :* ${anu.message.arah_rejeki}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Day Of Birth :* ${anu.message.hari_lahir}\n▷ *Date Of Birth :* ${anu.message.tgl_lahir}\n▷ *Sustenance Direction :* ${anu.message.arah_rejeki}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'peruntungan': {
@@ -2542,7 +2542,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\n🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\n▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'weton': case 'wetonjawa': {
@@ -2550,7 +2550,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Date :* ${anu.message.tanggal}\n🖤 *Number Of Neptune :* ${anu.message.jumlah_neptu}\n🖤 *Day Character :* ${anu.message.watak_hari}\n🖤 *Dragon Day :* ${anu.message.naga_hari}\n🖤 *Good Hour :* ${anu.message.jam_baik}\n🖤 *Birth Character :* ${anu.message.watak_kelahiran}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Date :* ${anu.message.tanggal}\n▷ *Number Of Neptune :* ${anu.message.jumlah_neptu}\n▷ *Day Character :* ${anu.message.watak_hari}\n▷ *Dragon Day :* ${anu.message.naga_hari}\n▷ *Good Hour :* ${anu.message.jam_baik}\n▷ *Birth Character :* ${anu.message.watak_kelahiran}`, m)
             }
             break
             case 'sifat': case 'karakter': {
@@ -2558,7 +2558,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Lifeline :* ${anu.message.garis_hidup}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Lifeline :* ${anu.message.garis_hidup}`, m)
             }
             break
             case 'keberuntungan': {
@@ -2566,7 +2566,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Name :* ${anu.message.nama}\n🖤 *Born :* ${anu.message.tgl_lahir}\n🖤 *Results :* ${anu.message.result}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Name :* ${anu.message.nama}\n▷ *Born :* ${anu.message.tgl_lahir}\n▷ *Results :* ${anu.message.result}`, m)
             }
             break
             case 'memancing': {
@@ -2574,7 +2574,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Date :* ${anu.message.tgl_memancing}\n🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Date :* ${anu.message.tgl_memancing}\n▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'masasubur': {
@@ -2582,7 +2582,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn, siklus] = text.split`,`
                 let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Results :* ${anu.message.result}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Results :* ${anu.message.result}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'zodiak': case 'zodiac': {
@@ -2617,14 +2617,14 @@ case 'webtonsearch': case 'webtoon':
                 
                 let anu = await primbon.zodiak(zodiac)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Zodiac :* ${anu.message.zodiak}\n🖤 *Number :* ${anu.message.nomor_keberuntungan}\n🖤 *Aroma :* ${anu.message.aroma_keberuntungan}\n🖤 *Planet :* ${anu.message.planet_yang_mengitari}\n🖤 *Flower :* ${anu.message.bunga_keberuntungan}\n🖤 *Color :* ${anu.message.warna_keberuntungan}\n🖤 *Stone :* ${anu.message.batu_keberuntungan}\n🖤 *Element :* ${anu.message.elemen_keberuntungan}\n🖤 *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n🖤 *Notes :* ${anu.message.catatan}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Zodiac :* ${anu.message.zodiak}\n▷ *Number :* ${anu.message.nomor_keberuntungan}\n▷ *Aroma :* ${anu.message.aroma_keberuntungan}\n▷ *Planet :* ${anu.message.planet_yang_mengitari}\n▷ *Flower :* ${anu.message.bunga_keberuntungan}\n▷ *Color :* ${anu.message.warna_keberuntungan}\n▷ *Stone :* ${anu.message.batu_keberuntungan}\n▷ *Element :* ${anu.message.elemen_keberuntungan}\n▷ *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n▷ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'shio': {
                 if (!text) throw `Example : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
                 let anu = await primbon.shio(text)
                 if (anu.status == false) return reply(anu.message)
-                CutieTTM.sendText(m.chat, `🖤 *Results :* ${anu.message}`, m)
+                CutieTTM.sendText(m.chat, `▷ *Results :* ${anu.message}`, m)
             }
             break
 	    case 'stalker': case 'stalk': {
@@ -2632,7 +2632,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`Example : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
                 let [type, id, zone] = args
                 if (type.toLowerCase() == 'ff') {
-                    if (!id) return reply(`No Query id, Example ${prefix + command} ff 552992060`)
+                    if (!id) return reply(`No Query id, Example ${prefix + command} ff 1911801120`)
                     let anu = await fetchJson(api('zenz', '/api/nickff', { apikey: global.APIKeys[global.APIs['zenz']], query: id }))
                     if (anu.status == false) return reply(anu.result.message)
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
@@ -2651,13 +2651,13 @@ case 'webtonsearch': case 'webtoon':
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'cod') {
-                    if (!id) return reply(`No Query id, Example ${prefix + command} cod 6290150021186841472`)
+                    if (!id) return reply(`No Query id, Example ${prefix + command} cod 629015002118682772`)
                     let anu = await fetchJson(api('zenz', '/api/nickcod', { apikey: global.APIKeys[global.APIs['zenz']], query: id }))
                     if (anu.status == false) return reply(anu.result.message)
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'pb') {
-                    if (!id) return reply(`No Query id, Example ${prefix + command} pb riio46`)
+                    if (!id) return reply(`No Query id, Example ${prefix + command} pb QueenCutie`)
                     let anu = await fetchJson(api('zenz', '/api/nickpb', { apikey: global.APIKeys[global.APIs['zenz']], query: id }))
                     if (anu.status == false) return reply(anu.result.message)
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
@@ -2666,13 +2666,13 @@ case 'webtonsearch': case 'webtoon':
                     if (!id) return reply(`No Query username, Example : ${prefix + command} ig queencutie`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/ig', { username: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
-                    CutieTTM.sendMedia(m.chat, anu.caption.profile_hd, '', `🖤 Full Name : ${anu.caption.full_name}\n🖤 User Name : ${anu.caption.user_name}\n🖤 ID ${anu.caption.user_id}\n🖤 Following : ${anu.caption.followers}\n🖤 Followers : ${anu.caption.following}\n🖤 Bussines : ${anu.caption.bussines}\n🖤 Professional : ${anu.caption.profesional}\n🖤 Verified : ${anu.caption.verified}\n🖤 Private : ${anu.caption.private}\n🖤 Bio : ${anu.caption.biography}\n🖤 Bio Url : ${anu.caption.bio_url}`, m)
+                    CutieTTM.sendMedia(m.chat, anu.caption.profile_hd, '', `♡ Full Name : ${anu.caption.full_name}\n♡ User Name : ${anu.caption.user_name}\n♡ ID ${anu.caption.user_id}\n♡ Following : ${anu.caption.followers}\n♡ Followers : ${anu.caption.following}\n♡ Bussines : ${anu.caption.bussines}\n♡ Professional : ${anu.caption.profesional}\n♡ Verified : ${anu.caption.verified}\n♡ Private : ${anu.caption.private}\n♡ Bio : ${anu.caption.biography}\n♡ Bio Url : ${anu.caption.bio_url}`, m)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'npm') {
                     if (!id) return reply(`No Query username, Example : ${prefix + command} npm scrape-primbon`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/npm', { query: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
-                    reply(`🖤 Name : ${anu.name}\n🖤 Version : ${Object.keys(anu.versions)}\n🖤 Created : ${tanggal(anu.time.created)}\n🖤 Modified : ${tanggal(anu.time.modified)}\n🖤 Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n🖤 Description : ${anu.description}\n🖤 Homepage : ${anu.homepage}\n🖤 Keywords : ${anu.keywords}\n🖤 Author : ${anu.author.name}\n🖤 License : ${anu.license}\n🖤 Readme : ${anu.readme}`)
+                    reply(`▷ Name : ${anu.name}\n▷ Version : ${Object.keys(anu.versions)}\n▷ Created : ${tanggal(anu.time.created)}\n▷ Modified : ${tanggal(anu.time.modified)}\n▷ Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n▷ Description : ${anu.description}\n▷ Homepage : ${anu.homepage}\n▷ Keywords : ${anu.keywords}\n▷ Author : ${anu.author.name}\n▷ License : ${anu.license}\n▷ Readme : ${anu.readme}`)
 		    db.data.users[m.sender].limit -= 1
                 } else {
                     reply(`Example : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
@@ -2685,7 +2685,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
                     {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🖤Song💦'}, type: 1}
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '▷Song💦'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.nowatermark },
@@ -2703,7 +2703,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
                     {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🖤Song💦'}, type: 1}
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '▷Song💦'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.watermark },
@@ -2758,7 +2758,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`No Query Title`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/joox', { query: text }, 'apikey'))
-                let msg = await CutieTTM.sendImage(m.chat, anu.result.img, `🖤 Title : ${anu.result.lagu}\n🖤 Album : ${anu.result.album}\n🖤 Singer : ${anu.result.penyanyi}\n🖤 Publish : ${anu.result.publish}\n🖤 Lyrics :\n${anu.result.lirik.result}`, m)
+                let msg = await CutieTTM.sendImage(m.chat, anu.result.img, `▷ Title : ${anu.result.lagu}\n▷ Album : ${anu.result.album}\n▷ Singer : ${anu.result.penyanyi}\n▷ Publish : ${anu.result.publish}\n▷ Lyrics :\n${anu.result.lirik.result}`, m)
                 CutieTTM.sendMessage(m.chat, { audio: { url: anu.result.mp4aLink }, mimetype: 'audio/mpeg', fileName: anu.result.lagu+'.m4a' }, { quoted: msg })
             }
             break
@@ -2766,7 +2766,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`No Query Title`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/soundcloud', { url: isUrl(text)[0] }, 'apikey'))
-                let msg = await CutieTTM.sendImage(m.chat, anu.result.thumb, `🖤 Title : ${anu.result.title}\n🖤 Url : ${isUrl(text)[0]}`)
+                let msg = await CutieTTM.sendImage(m.chat, anu.result.thumb, `▢ Title : ${anu.result.title}\n▢ Url : ${isUrl(text)[0]}`)
                 CutieTTM.sendMessage(m.chat, { audio: { url: anu.result.url }, mimetype: 'audio/mpeg', fileName: anu.result.title+'.m4a' }, { quoted: msg })
             }
             break
@@ -2775,7 +2775,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '🖤Song💦'}, type: 1}
+                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: 'ＳＯＮＧ ♫'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.HD || anu.result.SD },
@@ -2792,7 +2792,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `twitter ${text}`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                    {buttonId: `twitter ${text}`, buttonText: {displayText: 'ＶＩＤＥＯ ▷️'}, type: 1}
                 ]
                 let buttonMessage = {
 		    image: { url: anu.result.thumb },
@@ -2809,7 +2809,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
-                CutieTTM.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `🖤 Title : ${anu.result.title}`}, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `♡ Title : ${anu.result.title}`}, { quoted: m })
             }
             break
 	        case 'pindl': case 'pinterestdl': {
@@ -2825,20 +2825,21 @@ case 'webtonsearch': case 'webtoon':
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
 		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🖤Song💦'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: 'ＳＯＮＧ'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: 'ＶＩＤＥＯ️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-╔═════ೋೋ═════╗
- 🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🧚
-🖤 Title : ${anu.title} 🧚
-🖤 Author : ${anu.author.name} 🧚
-🖤 Like : ${anu.like} 🧚
-🖤 Caption : ${anu.caption} 🧚
-🖤 Url : ${anu.media[0]} 🧚
-To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
+╔═════༻♡༺═════╗
+    Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ
+    
+▷ Title : ${anu.title}
+▷ Author : ${anu.author.name}
+▷ Like : ${anu.like}
+▷ Caption : ${anu.caption}
+▷ Url : ${anu.media[0]}
+To Download Media, Please Click One Of The Button Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: CutieTTM.user.name,
 			buttons,
@@ -2847,7 +2848,7 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		    CutieTTM.sendMessage(m.chat, buttonMessage, { quoted: m })
 		} else if (anu.type == 'image') {
 		    anu.media.map(async (url) => {
-		        CutieTTM.sendMessage(m.chat, { image: { url }, caption: `🖤 Title : ${anu.title}\n🖤 Author : ${anu.author.name}\n🖤 Like : ${anu.like}\n🖤 Caption : ${anu.caption}` }, { quoted: m })
+		        CutieTTM.sendMessage(m.chat, { image: { url }, caption: `▢ Title : ${anu.title}\n▢ Author : ${anu.author.name}\n▢ Like : ${anu.like}\n▢ Caption : ${anu.caption}` }, { quoted: m })
 		    })
 		}
 	    }
@@ -2934,20 +2935,6 @@ ${id}`)
 ( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
 		reply(txt)
 		CutieTTM.sendMessage(m.chat, {audio: { url: res.result.data.audio.primary }, mimetype: 'audio/mpeg'}, { quoted : m })
-		}
-		break
-		case 'tafsirsurahxxx': {
-		if (!args[0]) return reply(`Usage Examples:\n${prefix + command} 1 2\n\nThen The Result Is The Interpretation Of Surah Al-Fatihah Verse 2`)
-		if (!args[1]) return reply(`Usage Examples:\n${prefix + command} 1 2\n\nThen The Result Is The Interpretation Of Surah Al-Fatihah Verse 2`)
-		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
-		let txt = `◤ *Tafsir Surah*  ◢
-
-*Short* : ${res.result.data.tafsir.id.short}
-
-*Long* : ${res.result.data.tafsir.id.long}
-
-( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
-		reply(txt)
 		}
 		break
 		   case 'bass': case 'blown': case 'deep': case 'earrape': case 'fast': case 'fat': case 'nightcore': case 'reverse': case 'robot': case 'slow': case 'smooth': case 'squirrel':
@@ -3049,7 +3036,7 @@ View List Of Messages With ${prefix}listmsg`)
 	        let seplit = Object.entries(global.db.data.database).map(([nama, isi]) => { return { nama, ...isi } })
 		let teks = '◤ DATABASE LIST ◢\n\n'
 		for (let i of seplit) {
-		    teks += `💫 *Name :* ${i.nama}\n💫 *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
+		    teks += `▷ *Name :* ${i.nama}\n▷ *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
 	        }
 	        reply(teks)
 	    }
@@ -3065,7 +3052,7 @@ View List Of Messages With ${prefix}listmsg`)
                 if (m.isGroup) return reply('Features Cannot Be Used For Groups!')
 				this.anonymous = this.anonymous ? this.anonymous : {}
 				let buttons = [
-                    { buttonId: 'Start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    { buttonId: 'Start', buttonText: { displayText: 'ＳＴＡＲＴ' }, type: 1 }
                 ]
                 CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await CutieTTM.getName(m.sender)} Welcome To Anonymous Chat\n\nClick The Button Below To Find A Partner\`\`\``, CutieTTM.user.name, m)
             }
@@ -3076,7 +3063,7 @@ View List Of Messages With ${prefix}listmsg`)
                 let room = Object.values(this.anonymous).find(room => room.check(m.sender))
                 if (!room) {
                     let buttons = [
-                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                        { buttonId: 'start', buttonText: { displayText: 'ＳＴＡＲＴ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In An Anonymous Session, Press The Button To Find A Partner \`\`\``)
                    reply(false)
@@ -3092,7 +3079,7 @@ View List Of Messages With ${prefix}listmsg`)
                 this.anonymous = this.anonymous ? this.anonymous : {}
                 if (Object.values(this.anonymous).find(room => room.check(m.sender))) {
                     let buttons = [
-                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                        { buttonId: 'keluar', buttonText: { displayText: 'ＳＴＯＰ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`You Are Still In An Anonymous Session, Press The Button Below To Terminate Your Anonymous Session\`\`\``, CutieTTM.user.name, m)
                     reply(false)
@@ -3100,8 +3087,8 @@ View List Of Messages With ${prefix}listmsg`)
                 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
                 if (room) {
                     let buttons = [
-                        { buttonId: 'next', buttonText: { displayText: '⏩Skip⏩' }, type: 1 },
-                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                        { buttonId: 'next', buttonText: { displayText: 'ＳＫＩＰ' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: 'ＳＴＯＰ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, CutieTTM.user.name, m)
                     room.b = m.sender
@@ -3122,7 +3109,7 @@ View List Of Messages With ${prefix}listmsg`)
                         },
                     }
                     let buttons = [
-                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                        { buttonId: 'keluar', buttonText: { displayText: 'ＳＴＯＰ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`Please Wait, Looking For A Partner\`\`\``, CutieTTM.user.name, m)
                 }
@@ -3134,7 +3121,7 @@ View List Of Messages With ${prefix}listmsg`)
                 let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
                 if (!romeo) {
                     let buttons = [
-                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                        { buttonId: 'start', buttonText: { displayText: 'ＳＴＡＲＴ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In An Anonymous Session, Press The Button To Find A Partner\`\`\``)
                     reply(false)
@@ -3145,8 +3132,8 @@ View List Of Messages With ${prefix}listmsg`)
                 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
                 if (room) {
                     let buttons = [
-                        { buttonId: 'next', buttonText: { displayText: '⏩Skip⏩' }, type: 1 },
-                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                        { buttonId: 'next', buttonText: { displayText: 'ＳＫＩＰ' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: 'ＳＴＯＰ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, CutieTTM.user.name, m)
                     room.b = m.sender
@@ -3167,7 +3154,7 @@ View List Of Messages With ${prefix}listmsg`)
                         },
                     }
                     let buttons = [
-                        { buttonId: 'keluar', buttonText: { displayText: '🛑Stop🛑' }, type: 1 }
+                        { buttonId: 'keluar', buttonText: { displayText: 'ＳＴＯＰ' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, `\`\`\`Please Wait, Looking For A Partner\`\`\``, CutieTTM.user.name, m)
                 }
@@ -3512,7 +3499,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit",
 								"rows": [
 									{
-										"title": "Thanks To",
+										"title": "Developer",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -4223,7 +4210,16 @@ break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-Thanks to My fiends and my knowledge`,unicorn, [{"urlButton": {"displayText": "ＧＩＴＨＵＢ ＳＣ","url": `${myweb}`}},{"urlButton": {"displayText": "ＣＲＥＡＴＯＲ","url": `${sc}`}},{"quickReplyButton": {"displayText": "ＧＲＯＵＰ","id": 'donate'}},{"quickReplyButton": {"displayText": "ＯＷＮＥＲ","id": 'owner'}}] )
+Queen Cutie is a user bot made for whatsapp to make your online life happier and find anything easily😊
+You can play games and chat with bot.
+Support with Muli device, 24/7 working.
+
+Developed by Thesandu Thewsara.
+
+You can contact creator for any doubts about bot.
+
+Thank you for choosing QueenCutie
+ `,unicorn, [{"urlButton": {"displayText": "ＧＩＴＨＵＢ ＳＣ","url": `${myweb}`}},{"urlButton": {"displayText": "ＣＲＥＡＴＯＲ","url": `${sc}`}},{"quickReplyButton": {"displayText": "ＧＲＯＵＰ","id": 'donate'}},{"quickReplyButton": {"displayText": "ＯＷＮＥＲ","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
