@@ -81,9 +81,7 @@ Created by `THESANDU THEWSARA`
  
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TthesanduT/QueenCutie-MD)
 
- 3)After you scan the QR, upload here the session file that came to you from your number.
-
-[![Upload](https://th.bing.com/th/id/R.d825da32e1e8208eab1dbfa6f939b778?rik=GnR%2fLFW5etgzWQ&riu=http%3a%2f%2frapidsignroanoke.com%2fHeader_Master%2fUpload_Button.gif&ehk=Hx%2b7gmurZoJtP5PkGIxB%2bNA6JLYqgpFOwVhTg8klo5w%3d&risl=&pid=ImgRaw&r=00)](https://github.com/ThesanduT/QueenCutie-MD/upload/master)
+ `3)After you scan the QR, upload the session file that came to you from your number.`
   
  4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically   
   
@@ -115,10 +113,12 @@ $ node index.js
 ----
 
 ##  Guide
-Click WA logo to Join Support Group
+Click logo for contact creator and join support group
     <br>
 <br>
-  <a href="https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7"><img src="https://img.shields.io/badge/join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://api.whatsapp.com/send?phone=+94778763517"><img src="https://img.shields.io/badge/CONTACT CREATOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7"><img src="https://img.shields.io/badge/JOIN GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ThesanduT&repo=QueenCutie-MD&theme=nightowl)](https://github.com/ThesanduT/QueenCutie-MD)
   </div>
@@ -134,11 +134,6 @@ and group management with some helpfull commands.
 If  you ended up spamming groups, getting reported left and right, 
 and you ended up in being fight with WhatsApp
 and at the end WhatsApp Team deleted your account. DON'T BLAME US.
-
-If you need help
-you can contact
-
-<a href="https://api.whatsapp.com/send?phone=+94778763517"><img src="https://img.shields.io/badge/Contact Creator-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
     
 
 ## License
