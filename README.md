@@ -83,7 +83,7 @@ Created by `THESANDU THEWSARA`
 
  3)After you scan the QR, upload here the session file that came to you from your number.
 
-[![Upload](https://th.bing.com/th/id/R.d825da32e1e8208eab1dbfa6f939b778?rik=GnR%2fLFW5etgzWQ&riu=http%3a%2f%2frapidsignroanoke.com%2fHeader_Master%2fUpload_Button.gif&ehk=Hx%2b7gmurZoJtP5PkGIxB%2bNA6JLYqgpFOwVhTg8klo5w%3d&risl=&pid=ImgRaw&r=00)]()
+[![Upload](https://th.bing.com/th/id/R.d825da32e1e8208eab1dbfa6f939b778?rik=GnR%2fLFW5etgzWQ&riu=http%3a%2f%2frapidsignroanoke.com%2fHeader_Master%2fUpload_Button.gif&ehk=Hx%2b7gmurZoJtP5PkGIxB%2bNA6JLYqgpFOwVhTg8klo5w%3d&risl=&pid=ImgRaw&r=00)](https://github.com/ThesanduT/QueenCutie-MD/upload/master)
   
  4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically   
   
