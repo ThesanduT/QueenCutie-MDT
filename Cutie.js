@@ -3399,6 +3399,19 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 CutieTTM.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
                 break
+		case 'online':
+                 if (!isOwner && !mek.key.fromMe) return
+	         offline = false
+		 fgclink('*BOT ONLINE*')
+		 break
+                   case 'offline':
+            if (!mek.key.fromMe) return 
+            offline = true
+            waktu = Date.now()
+            anuu = args.join(' ') ? args.join(' ') : '-'
+            alasan = anuu
+            fgclink('*BOT OFFLINE*')
+            break   
                 case 'command': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
