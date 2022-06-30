@@ -68,20 +68,31 @@ Created by `THESANDU THEWSARA`
     <br> 
 </p>
 
-## Setup
-<div align="center"> 
-
-
-  ### Follow this steps to deploy this bot
-  
-[![Fork](https://th.bing.com/th/id/R.42eae59e24818d1c6d7c6b1f1bd1d53b?rik=rhrKky9vzklbgw&riu=http%3a%2f%2fwww.ukspousevisahelp.com%2fwp-content%2fuploads%2f2016%2f02%2fclick_here.png&ehk=2pOIZdyuDp8t1pEOxJQ87LuqeJjd7p1falqPXvpqX7Y%3d&risl=&pid=ImgRaw&r=0)
-  
+ ### SETUP
+    
+ `FOLLOW THIS STEPS TO DEPLOY THIS BOT`
+ 
+ 
+ 1)If you haven't a github account? first create account and press click here button to fork this.
+ 
+[![Fork](https://th.bing.com/th/id/R.584cd86306256f7f5c17537ff84bbc0d?rik=1EXIR1Xzuzl3FQ&riu=http%3a%2f%2fwww.agravat.com%2fwp-content%2fuploads%2f2011%2f12%2fBlue.jpg&ehk=c3ImSIfTU%2fXB1nXL0EcNp6iOlGVFKPCfNDL9AjFdKws%3d&risl=&pid=ImgRaw&r=0)](https://github.com/ThesanduT/QueenCutie/fork)
+ 
+ 2)Now click on Run on Replit button to scan qr code *Scan this QR with the number you want to create the bot*
+ 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TthesanduT/QueenCutie-MD)
+
+ 3)After you scan the QR, upload here the session file that came to you from your number.
+
+[![Upload](https://th.bing.com/th/id/R.d825da32e1e8208eab1dbfa6f939b778?rik=GnR%2fLFW5etgzWQ&riu=http%3a%2f%2frapidsignroanoke.com%2fHeader_Master%2fUpload_Button.gif&ehk=Hx%2b7gmurZoJtP5PkGIxB%2bNA6JLYqgpFOwVhTg8klo5w%3d&risl=&pid=ImgRaw&r=00)]()
+  
+ 4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically   
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
 
   
-### The Hard Method
+----
+
+ `For turmux`
 ```js
 GET QR
 $ apt install git
