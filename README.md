@@ -5,50 +5,50 @@
 
 
 <div align="center">
-  <a href="https://ibb.co/48VDYf7"><img src="https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg""width="170" height="170"/>
+  <a href="https://ibb.co/48VDYf7"><img src="https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg""width="200" height="200"/>
     <p align="center">
     
     
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=DB2748&lines=Welcome+to+QueenCutie+whatsapp+bot...;Create+by+Thesandu+Thewsara...;Added+more+features...;Thank+you+for+choosing+QueenCutie...)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=DB2748&lines=Welcome+to+QueenCutie-MD+whatsapp+bot...;Create+by+Thesandu+Thewsara...;Added+more+features...;Thank+you+for+choosing+QueenCutie...)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://github.com/ThesanduT/Queen-Cutie/fork">
-    <img src="https://img.shields.io/github/forks/ThesanduT/Queen-Cutie?label=Fork&style=social">
+  <a href="https://github.com/ThesanduT/QueenCutie-MD/fork">
+    <img src="https://img.shields.io/github/forks/ThesanduT/QueenCutie-MD?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ThesanduT/Queen-Cutie/stargazers">
-    <img src="https://img.shields.io/github/stars/ThesanduT/Queen-Cutie?style=social">
+  <a href="https://github.com/ThesanduT/QueenCutie-MD/stargazers">
+    <img src="https://img.shields.io/github/stars/ThesanduT/QueenCutie-MD?style=social">
   </a>
-  <a href="https://github.com/ThesanduT/Queen-Cutie/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/m/ThesanduT/Queen-Cutie?style=social">
+  <a href="https://github.com/ThesanduT/QueenCutie-MD/commits/main">
+    <img src="https://img.shields.io/github/commit-activity/m/ThesanduT/QueenCutie-MD?style=social">
   </a>
 </p>
     
-<a href="https://github.com/ThesanduT/Queen-Cutie">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThesanduT%2FQueen-Cutie&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views"/></a>
+<a href="https://github.com/ThesanduT/QueenCutie-MD">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThesanduT%2FQueenCutie-MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views"/></a>
 
 <p align="center">
-  <a href="httsp://github.com/ThesanduT/Queen-Cutie">
-    <img src="https://img.shields.io/github/repo-size/ThesanduT/Queen-Cutie?color=rgb&label=Repo%20Size&style=plastic">
+  <a href="httsp://github.com/ThesanduT/QueenCutie-MD">
+    <img src="https://img.shields.io/github/repo-size/ThesanduT/QueenCutie-MD?color=rgb&label=Repo%20Size&style=plastic">
 
   </a>
-  <a href="httsp://github.com/ThesanduT/Queen-Cutie">
+  <a href="httsp://github.com/ThesanduT/QueenCutie-MD">
     <img src="https://img.shields.io/codefactor/grade/github/phaticusthiccy/WhatsAsenaDuplicated?color=rgb&label=Code%20Quality&style=plastic">
 
   </a>
-  <a href="https://github.com/ThesanduT/Queen-Cutie/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ThesanduT/Queen-Cutie?color=rgb&label=Lisance&style=plastic">
+  <a href="https://github.com/ThesanduT/QueenCutie-MD/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ThesanduT/QueenCutie-MD?color=rgb&label=Lisance&style=plastic">
 
   </a>
-  <a href="https://github.com/ThesanduT/Queen-Cutie">
-    <img src="https://img.shields.io/github/languages/top/ThesanduT/Queen-Cutie?color=rgb&label=Javascript&style=plastic">
+  <a href="https://github.com/ThesanduT/QueenCutie-MD">
+    <img src="https://img.shields.io/github/languages/top/ThesanduT/QueenCutie-MD?color=rgb&label=Javascript&style=plastic">
 
   </a>
   <a href="https://github.com/ThesanduT">
     <img src="https://img.shields.io/static/v1?label=Author&message=Thesandu&color=rgb&style=plastic">
 
   </a>
-  <a href="https://wa.me/+94712564306">
+  <a href="https://wa.me/+94778763517">
     <img src="https://img.shields.io/badge/Whatsapp-Queen%20Cutie-yellow&style=plastic">
 
   </a>
@@ -59,7 +59,7 @@
 </p>
 </div>
 <p align="center">
-Project <a href="https://github.com/ThesanduT">Queen-Cutie</a> ||•
+Project <a href="https://github.com/ThesanduT">QueenCutie-MD</a> ||•
 
 Created by `THESANDU THEWSARA`
        <br>
@@ -74,7 +74,7 @@ Created by `THESANDU THEWSARA`
 
   ### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/Queen-Cutie) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Ttmodz/Queen-Cutie)
   
@@ -83,19 +83,19 @@ Created by `THESANDU THEWSARA`
 GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
-$ git clone https://github.com/ThesanduT/Queen-Cutie
-$ cd Queen-Cutie
+$ git clone https://github.com/ThesanduT/QueenCutie-MD
+$ cd QueenCutie-MD
 $ npm install @adiwajshing/baileys
 $ npm install chalk
-$ node cutie.js
+$ node index.js
 ```
       
 ```js
 SETUP
-$ git clone https://github.com/ThesanduT/Queen-Cutie
+$ git clone https://github.com/ThesanduT/QueenCutie-MD
 $ cd Queen-Cutie
 $ npm i
-$ node cutie.js
+$ node index.js
 ```
 
 ----
@@ -107,7 +107,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ThesanduT&repo=Queen-Cutie&theme=nightowl)](https://github.com/ThesanduT/Queen-Cutie)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ThesanduT&repo=QueenCutie-MD&theme=nightowl)](https://github.com/ThesanduT/QueenCutie-MD)
   </div>
     
 ### ⚠ Warning ⚠
@@ -123,9 +123,9 @@ and you ended up in being fight with WhatsApp
 and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
 If you need help
-you can contact 👇🏻👇🏻 
+you can contact 👇 
 
-**[![Thesandu](https://www.linkpicture.com/q/WHTSPP-LOGO.png)](http://wa.me/94712564306?text=Can%20you%20help%20me)**
+**[![Thesandu](https://th.bing.com/th/id/R.1be049116cfedb1dd15532a594bbe428?rik=j6jz1Lh4ilcTIA&riu=http%3a%2f%2fmedia.withtank.com%2f524cc5fc6e%2flogo-whatsapp_580_wide.png&ehk=Cdagr7ozMeWsqikLpJpA0B9s4gTywcGFQim3b5sBaVE%3d&risl=&pid=ImgRaw&r=0)](http://wa.me/94712564306?text=Can%20you%20help%20me)**
     
 ## Developers
   <div align="center">
