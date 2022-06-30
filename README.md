@@ -75,7 +75,7 @@ Created by `THESANDU THEWSARA`
  
  1)If you haven't a github account? first create account and press click here button to fork this.
  
-[![Fork](https://th.bing.com/th/id/R.584cd86306256f7f5c17537ff84bbc0d?rik=1EXIR1Xzuzl3FQ&riu=http%3a%2f%2fwww.agravat.com%2fwp-content%2fuploads%2f2011%2f12%2fBlue.jpg&ehk=c3ImSIfTU%2fXB1nXL0EcNp6iOlGVFKPCfNDL9AjFdKws%3d&risl=&pid=ImgRaw&r=0)](https://github.com/ThesanduT/QueenCutie/fork)
+[![Fork](https://th.bing.com/th/id/R.584cd86306256f7f5c17537ff84bbc0d?rik=1EXIR1Xzuzl3FQ&riu=http%3a%2f%2fwww.agravat.com%2fwp-content%2fuploads%2f2011%2f12%2fBlue.jpg&ehk=c3ImSIfTU%2fXB1nXL0EcNp6iOlGVFKPCfNDL9AjFdKws%3d&risl=&pid=ImgRaw&r=0)](https://github.com/ThesanduT/QueenCutie-MD/fork)
  
  2)Now click on Run on Replit button to scan qr code *Scan this QR with the number you want to create the bot*
  
@@ -114,7 +114,7 @@ $ node index.js
 
 ----
 
-## 📢 Guide
+##  Guide
 Click WA logo to Join Support Group 👇
     <br>
 <br>
@@ -139,12 +139,8 @@ and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 If you need help
 you can contact 👇 
 
-**[![Thesandu](https://th.bing.com/th/id/R.1be049116cfedb1dd15532a594bbe428?rik=j6jz1Lh4ilcTIA&riu=http%3a%2f%2fmedia.withtank.com%2f524cc5fc6e%2flogo-whatsapp_580_wide.png&ehk=Cdagr7ozMeWsqikLpJpA0B9s4gTywcGFQim3b5sBaVE%3d&risl=&pid=ImgRaw&r=0)](http://wa.me/94712564306?text=Can%20you%20help%20me)**
+**[![Thesandu](https://th.bing.com/th/id/R.1be049116cfedb1dd15532a594bbe428?rik=j6jz1Lh4ilcTIA&riu=http%3a%2f%2fmedia.withtank.com%2f524cc5fc6e%2flogo-whatsapp_580_wide.png&ehk=Cdagr7ozMeWsqikLpJpA0B9s4gTywcGFQim3b5sBaVE%3d&risl=&pid=ImgRaw&r=0)](http://wa.me/94778763517?text=Can%20you%20help%20me)**
     
-## Developers
-  <div align="center">
-
-<table><tr><th>ThesanduT</th><th>ThesanduThewsara</th><th>Thesandu</th></tr><tr><td><a href="https://github.com/ThesanduT"><img src="https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg" width="150" alt="ThesanduT"></a></td><td><a href="https://github.com/ThesanduT"><img src="https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg" width="150" alt="ThesanduThewsara"></a></td><td><a href="https://github.com/ThesanduT"><img src="https://i.ibb.co/fkxKnS2/Queen-Cutie.jpg" width="150" alt="Thesandu"></a></td></tr><tr><td>Owner</td><td>Developer & Owner</td><td>Group Management & Idea</td></tr></table>
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
