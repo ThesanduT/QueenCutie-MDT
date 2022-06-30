@@ -1149,12 +1149,12 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
             let member = participants.map(u => u.id)
             let me = m.sender
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `👫Your Match Is
+            let jawab = `👩‍❤️‍💋‍👨Your Match Is
 
 @${me.split('@')[0]} 🖤 @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '🖤', buttonText: { displayText: '🖤' }, type: 1 }
+                        { buttonId: '🌝♥️', buttonText: { displayText: '🌝♥️' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, jawab, CutieTTM.user.name, m, {mentions: ments})
             }
@@ -1164,11 +1164,11 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `@${orang.split('@')[0]} 🖤 @${jodoh.split('@')[0]}
-Cieeee, What's Going On🖤💖👀`
+            let jawab = `@${orang.split('@')[0]}  @${jodoh.split('@')[0]}
+Heeee😁, What's Going On♥️👀`
             let menst = [orang, jodoh]
             let buttons = [
-                        { buttonId: '🖤', buttonText: { displayText: '🖤' }, type: 1 }
+                        { buttonId: '🌝♥️', buttonText: { displayText: '🌝♥️' }, type: 1 }
                     ]
                     await CutieTTM.sendButtonText(m.chat, buttons, jawab, CutieTTM.user.name, m, {mentions: menst})
             }
@@ -1209,14 +1209,14 @@ CutieTTM.sendMessage(from, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quoted:
 
 					break
   case 'handsomecheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @QueenCutie`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 CutieTTM.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
 
 					break
 case 'beautifulcheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @QueenCutie`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 CutieTTM.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -1232,15 +1232,15 @@ case 'awesomecheck':
                  case 'prettycheck':
                     case 'lovelycheck':
                       case 'uglycheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @QueenCutie`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 CutieTTM.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
 					break
 					case 'charactercheck':
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
-					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
-					const taky = xeony[Math.floor(Math.random() * xeony.length)]
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @QueenCutie`)
+					const ttmqc =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
+					const taky = ttmqc[Math.floor(Math.random() * ttmqc.length)]
 					CutieTTM.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
 				     break
                     case 'stupid':
@@ -1456,7 +1456,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
-                teks += `🖤 @${mem.id.split('@')[0]}\n`
+                teks += ` @${mem.id.split('@')[0]}\n`
                 }
                 CutieTTM.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -1476,7 +1476,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
                 let anu = await styletext(text)
                 let teks = `Entered Text ${text}\n\n`
                 for (let i of anu) {
-                    teks += `🖤 *${i.name}* : ${i.result}\n\n`
+                    teks += ` *${i.name}* : ${i.result}\n\n`
                 }
                 reply(teks)
 	    }
@@ -1767,7 +1767,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: 'ＭＥＮＵ',
                                     id: 'menu'
                                 }
                             }, {
@@ -1776,7 +1776,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `◤ GOJO-SATORU HERE🎉 ◢\n\n${text}`
+                      let txt = `◤ Queen Cutie Is Here🌝💞 ◢\n\n${text}`
                       CutieTTM.send5ButImg(i, txt, CutieTTM.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1801,7 +1801,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: 'ＭＥＮＵ',
                                     id: 'menu'
                                 }
                             }, {
@@ -1810,7 +1810,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `◤ GOJO-SATORU HERE 🎉◢\n\n${text}`
+                      let txt = `◤ Queen Cutie Is Here🌝💞◢\n\n${text}`
                       CutieTTM.send5ButImg(yoi, txt, CutieTTM.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -1825,8 +1825,8 @@ break
                     let read = i.readTimestamp
                     let unread = i.receiptTimestamp
                     let waktu = read ? read : unread
-                    teks += `🖤 @${i.userJid.split('@')[0]}\n`
-                    teks += ` ┗┄🖤 *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} 🖤 *Status :* ${read ? 'Read' : 'Sent'}\n\n`
+                    teks += `▷ @${i.userJid.split('@')[0]}\n`
+                    teks += `▷ *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ▢ *Status :* ${read ? 'Read' : 'Sent'}\n\n`
                 }
                 CutieTTM.sendTextWithMentions(m.chat, teks, m)
             }
@@ -1840,20 +1840,20 @@ break
 	    break
             case 'listpc': case 'pclist': {
                  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v.id)
-                 let teks = `⬣ *PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
+                 let teks = `*PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
                  for (let i of anu) {
                      let nama = store.messages[i].array[0].pushName
-                     teks += `💫 *Name :* ${nama}\n💫 *User :* @${i.split('@')[0]}\n💫 *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
+                     teks += `▢ *Name :* ${nama}\n▢ *User :* @${i.split('@')[0]}\n▢ *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
                  }
                  CutieTTM.sendTextWithMentions(m.chat, teks, m)
              }
              break
                 case 'listgc': case 'gclist': {
                  let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
-                 let teks = `⬣ *GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
+                 let teks = `*GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
                      let metadata = await CutieTTM.groupMetadata(i)
-                     teks += `💫 *Name :* ${metadata.subject}\n💫 *Owner :* @${metadata.owner.split('@')[0]}\n💫 *ID :* ${metadata.id}\n💫 *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n💫 *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
+                     teks += `▢ *Name :* ${metadata.subject}\n▢ *Owner :* @${metadata.owner.split('@')[0]}\n▢ *ID :* ${metadata.id}\n▢ *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n▢ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  CutieTTM.sendTextWithMentions(m.chat, teks, m)
              }
@@ -1861,7 +1861,7 @@ break
              case 'listonlinexxx': case 'onlinelistxxx': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
-                    CutieTTM.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🖤 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+                    CutieTTM.sendText(m.chat, 'Online List:\n\n' + online.map(v => '▷ @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
             case 'sticker': case 's': case 'stickergif': case 'sgif': {
@@ -2040,7 +2040,7 @@ break
             }
             break
         case 'google': {
-                if (!text) return reply(`Example : ${prefix + command} gojo shiba inu`)
+                if (!text) return reply(`Example : ${prefix + command} QueenCutie bot`)
                 let google = require('google-it')
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
@@ -2054,18 +2054,18 @@ break
                 }
                 break
         case 'gimage': case 'googleimage': {
-        if (!text) return reply(`Example : ${prefix + command} gojo`)
+        if (!text) return reply(`Example : ${prefix + command} QueenCutie`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
         n = result
         images = n[Math.floor(Math.random() * n.length)].url
         let buttons = [
-                    {buttonId: `gimage ${text}`, buttonText: {displayText: '➡️➡️Next Image➡️➡️'}, type: 1}
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: '⇨Next Image⇦️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    caption: `*-------◤ GIMAGE SEARCH ◢-------*
-🤠 *Query* : ${text}
+                    caption: `*◤ GIMAGE SEARCH ◢*
+💬 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
                     footer: CutieTTM.user.name,
                     buttons: buttons,
@@ -2081,24 +2081,25 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: 'ＡＵＤＩＯ'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: 'ＶＩＤＥＯ️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-╔═════ೋೋ═════╗
-   🧚𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🖤
-🖤 Title : ${anu.title} 🧚
-🖤 Ext : Search 🧚
-🖤 ID : ${anu.videoId} 🧚
-🖤 Duration : ${anu.timestamp} 🧚
-🖤 Viewes : ${anu.views} 🧚
-🖤 Uploaded On : ${anu.ago} 🧚
-🖤 Author : ${anu.author.name} 🧚
-🖤 Channel : ${anu.author.url} 🧚
-🖤 Description : ${anu.description} 🧚
-🖤 Url : ${anu.url}`,
+╔═════༻♡༺═════╗
+║   Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ - ᴍᴅ  ║
+   
+✧ Title : ${anu.title}
+✧ Ext : Search
+✧ ID : ${anu.videoId}
+✧ Duration : ${anu.timestamp}
+✧ Viewes : ${anu.views}
+✧ Uploaded On : ${anu.ago}
+✧ Author : ${anu.author.name}
+✧ Channel : ${anu.author.url}
+✧ Description : ${anu.description}
+✧ Url : ${anu.url}`,
                     footer: CutieTTM.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2108,21 +2109,21 @@ break
             break
 	    case 'ytmp3': case 'getmusic': case 'ytaudio': {
                 let { yta } = require('./lib/y2mate')
-                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`)
+                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=xxxxxxxx%27 128kbps`)
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                CutieTTM.sendImage(m.chat, media.thumb, `🖤 Title : ${media.title}\n🖤 File Size : ${media.filesizeF}\n🖤 Url : ${isUrl(text)}\n🖤 Ext : MP3\n🖤 Resolution : ${args[1] || '320kbps'}`, m)
+                CutieTTM.sendImage(m.chat, media.thumb, `▷ Title : ${media.title}\n▷ File Size : ${media.filesizeF}\n▷ Url : ${isUrl(text)}\n▷ Ext : MP3\n▷ Resolution : ${args[1] || '320kbps'}`, m)
                 CutieTTM.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
             case 'ytmp4': case 'getvideo': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
-                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`)
+                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=xxxxxxxxx%27 360p`)
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                CutieTTM.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🖤 Title : ${media.title}\n🖤 File Size : ${media.filesizeF}\n🖤 Url : ${isUrl(text)}\n🖤 Ext : MP3\n🖤 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `▷ Title : ${media.title}\n▷ File Size : ${media.filesizeF}\n▷ Url : ${isUrl(text)}\n▷ Ext : MP4\n▷ Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
 	    case 'getmusicxxx': {
@@ -2131,7 +2132,7 @@ break
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                CutieTTM.sendImage(m.chat, media.thumb, `🖤 Title : ${media.title}\n🖤 File Size : ${media.filesizeF}\n🖤 Url : ${urls[text - 1]}\n🖤 Ext : MP3\n🖤 Resolution : ${args[1] || '128kbps'}`, m)
+                CutieTTM.sendImage(m.chat, media.thumb, `▷ Title : ${media.title}\n▷ File Size : ${media.filesizeF}\n▷ Url : ${urls[text - 1]}\n▷ Ext : MP3\n▷ Resolution : ${args[1] || '128kbps'}`, m)
                 CutieTTM.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2145,7 +2146,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                CutieTTM.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🖤 Title : ${media.title}\n🖤 File Size : ${media.filesizeF}\n🖤 Url : ${urls[text - 1]}\n🖤 Ext : MP3\n🖤 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `▷ Title : ${media.title}\n▷ File Size : ${media.filesizeF}\n▷ Url : ${urls[text - 1]}\n▷ Ext : MP4\n▷ Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -2153,20 +2154,20 @@ break
 		let { pinterest } = require('./lib/scraper')
                 anu = await pinterest(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
-                CutieTTM.sendMessage(m.chat, { image: { url: result }, caption: '🖤 Media Url : '+result }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { image: { url: result }, caption: ' Media Url : '+result }, { quoted: m })
             }
             break
 case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
                 nexusnw.Webtoons(q).then(async data => {
-                    let txt = `*------◤ WEBTOONS-SEARCH ◢------*\n\n`
+                    let txt = `*◤ WEBTOONS-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*👍🏻 Like :* ${i.like}\n`
-                        txt += `*🤴🏻 Creator :* ${i.creator}\n`
+                        txt += `*🖋️ Creator :* ${i.creator}\n`
                         txt += `*🎥 Genre :* ${i.genre}\n`
-                        txt += `*📚 Url :* ${i.url}\n ----------------------------------------------------------\n`
+                        txt += `*🔎 Url :* ${i.url}\n ----------------------------------------------------------\n`
                     }
                     await reply(txt)
                 })
@@ -2178,12 +2179,12 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
                 nexusnw.Drakor(`${text}`).then(async data => {
-                    let txt = `*-----◤ DRAKOR-SEARCH ◢-----*\n\n`
+                    let txt = `*◤ DRAKOR-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📆 Years :* ${i.years}\n`
                         txt += `*🎥 Genre :* ${i.genre}\n`
-                        txt += `*📚 Url :* ${i.url}\n-----------------------------------------------------\n`
+                        txt += `*🔎 Url :* ${i.url}\n-----------------------------------------------------\n`
                     }
                     await sendFileFromUrl(from,data[0].thumbnail,txt,m)
                 })
@@ -2195,16 +2196,16 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Anime(q).then(async data => {
-                    let txt = `*-------◤ ANIME-SEARCH ◢-------*\n\n`
+                    let txt = `*◤ ANIME-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
-                        txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        txt += `*🔎 Url :* ${i.link}\n-----------------------------------------------------\n`
                     }
                     let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "Watch🎥",
+						"displayText": "ＷＡＴＣＨ🎥",
 						"url": `${myweb}`
 						}
 					}
@@ -2220,10 +2221,10 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Character(q).then(async data => {
-                    let txt = `*---◤ CHARACTER-SEARCH ◢---*\n\n`
+                    let txt = `*◤ CHARACTER-SEARCH ◢*\n\n`
                     for (let i of data) {
                         txt += `*📫 Character :* ${i.character}\n`
-                        txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        txt += `*🔎 Url :* ${i.link}\n-----------------------------------------------------\n`
                     }
                     let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
                     var but = [
@@ -2244,10 +2245,10 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Manga Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Manga(`${text}`).then(async data => {
-                    let txt = `*------◤ MANGA-SEARCH ◢------*\n\n`
+                    let txt = `*◤ MANGA-SEARCH ◢*\n\n`
                     for (let i of data) {
                          txt += `*📫 Title :* ${i.judul}\n`
-                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                         txt += `*🔎 Url :* ${i.link}\n-----------------------------------------------------\n`
                     }
                     let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
                     var but = [
@@ -2273,17 +2274,17 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
                 let random = anu[Math.floor(Math.random() * anu.length)]
-                CutieTTM.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male🙎🏻‍♂️` }, { quoted: m })
-                CutieTTM.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female🙎🏻‍♀️` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male ♂` }, { quoted: m })
+                CutieTTM.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female ♀` }, { quoted: m })
             }
 	    break
             case 'coffee': case 'kopi': {
             let buttons = [
-                    {buttonId: `coffe`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `coffe`, buttonText: {displayText: '⇨Next Image️⇦'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
-                    caption: `☕ Random Coffee`,
+                    caption: `Random Coffee ☕`,
                     footer: CutieTTM.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2297,11 +2298,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wallpaper(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
 		let buttons = [
-                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: '⇨Next Image️⇦'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image[0] },
-                    caption: `🖤 Title : ${result.title}\n🖤 Category : ${result.type}\n🖤 Detail : ${result.source}\n🖤 Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    caption: `▷ Title : ${result.title}\n▷ Category : ${result.type}\n▷ Detail : ${result.source}\n▷ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
                     footer: CutieTTM.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2315,11 +2316,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wikimedia(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '⇨Next Image️⇦'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image },
-                    caption: `🖤 Title : ${result.title}\n🖤 Source : ${result.source}\n🖤 Media Url : ${result.image}`,
+                    caption: `▷ Title : ${result.title}\n▷ Source : ${result.source}\n▷ Media Url : ${result.image}`,
                     footer: CutieTTM.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2332,7 +2333,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await quotesAnime()
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `quotesanime`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `quotesanime`, buttonText: {displayText: '⇨Next⇦'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
@@ -2346,7 +2347,7 @@ case 'webtonsearch': case 'webtoon':
 	        case 'motivasi': case 'motivationalquote': case 'bucinquote': case 'katasenja': case 'puisi': {
                 let anu = await fetchJson(api('zenz', '/api/'+command, {}, 'apikey'))
                 let buttons = [
-                    {buttonId: `motivasi`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `motivasi`, buttonText: {displayText: '⇨Next️⇦'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: anu.result.message,
@@ -2358,7 +2359,7 @@ case 'webtonsearch': case 'webtoon':
             }
             break
             case '3dchristmas': case '3ddeepsea': case 'americanflag': case '3dscifi': case '3drainbow': case '3dwaterpipe': case 'halloweenskeleton': case 'sketch': case 'bluecircuit': case 'space': case 'metallic': case 'fiction': case 'greenhorror': case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dcrackedstone': case '3dneonlight': case 'impressiveglitch': case 'naturalleaves': case 'fireworksparkle': case 'matrix': case 'dropwater':  case 'harrypotter': case 'foggywindow': case 'neondevils': case 'christmasholiday': case '3dgradient': case 'blackpink': case 'gluetext': {
-                if (!text) return reply(`Enter Text, Example : ${prefix + command} Xeon`)
+                if (!text) return reply(`Enter Text, Example : ${prefix + command} QueenCutie`)
                 reply(mess.wait)
                 CutieTTM.sendMessage(m.chat, { image: { url: api('zenz', '/textpro/' + command, { text: text }, 'apikey') }, caption: `Text Pro ${command}` }, { quoted: m})
 	    }
@@ -2662,7 +2663,7 @@ case 'webtonsearch': case 'webtoon':
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'ig') {
-                    if (!id) return reply(`No Query username, Example : ${prefix + command} ig josephxeon13`)
+                    if (!id) return reply(`No Query username, Example : ${prefix + command} ig queencutie`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/ig', { username: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
                     CutieTTM.sendMedia(m.chat, anu.caption.profile_hd, '', `🖤 Full Name : ${anu.caption.full_name}\n🖤 User Name : ${anu.caption.user_name}\n🖤 ID ${anu.caption.user_id}\n🖤 Following : ${anu.caption.followers}\n🖤 Followers : ${anu.caption.following}\n🖤 Bussines : ${anu.caption.bussines}\n🖤 Professional : ${anu.caption.profesional}\n🖤 Verified : ${anu.caption.verified}\n🖤 Private : ${anu.caption.private}\n🖤 Bio : ${anu.caption.biography}\n🖤 Bio Url : ${anu.caption.bio_url}`, m)
@@ -3399,19 +3400,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 CutieTTM.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
                 break
-		case 'online':
-                 if (!isOwner && !mek.key.fromMe) return
-	         offline = false
-		 fgclink('*BOT ONLINE*')
-		 break
-                   case 'offline':
-            if (!mek.key.fromMe) return 
-            offline = true
-            waktu = Date.now()
-            anuu = args.join(' ') ? args.join(' ') : '-'
-            alasan = anuu
-            fgclink('*BOT OFFLINE*')
-            break   
                 case 'command': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
