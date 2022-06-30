@@ -25,7 +25,7 @@ global.APIKeys = {
 
 //customize settings\\
 
-global.owner = ['ᴛʜᴇꜱᴀɴᴅᴜ ᴛʜᴇᴡꜱᴀʀᴀ']
+global.owner = ['94778763517']
 
 global.premium = ['Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ']
 
@@ -39,11 +39,11 @@ global.footer = 'Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ.'
 
 global.ig = 'https://github.com/ThesanduT/QueenCutie-MD'
 
-global.region = '*╚═══❖•Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ•❖═══╝*'
+global.region = '*╚═══ •Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ-ᴍᴅ• ═══╝*'
 
-global.sc = 'https://github.com/ThesanduT/QueenCutie-MD'
+global.sc = 'https://api.whatsapp.com/send?phone=+94778763517'
 
-global.myweb = 'https://github.com/ThesanduT'
+global.myweb = 'https://github.com/ThesanduT/QueenCutie-MD'
 
 global.packname = 'Qᴜᴇᴇɴ ᴄᴜᴛɪᴇ ꜱᴛɪᴄᴋᴇʀꜱ'
 
