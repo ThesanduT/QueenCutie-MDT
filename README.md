@@ -74,9 +74,10 @@ Created by `THESANDU THEWSARA`
 
   ### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TthesanduT/QueenCutie-MD)
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Ttmodz/Queen-Cutie)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
+
   
 ### The Hard Method
 ```js
