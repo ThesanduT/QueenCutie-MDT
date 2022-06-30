@@ -3894,320 +3894,335 @@ break
 case 'funmenu':
 var unicorn = await getBuffer(picak+'Fun Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ FUN ◢	        
-┋⫸ ${prefix}how [text
-┋⫸ ${prefix}when [text]
-┋⫸ ${prefix}is [text]
-┋⫸ ${prefix}what [text]
-┋⫸ ${prefix}can [text]
-┋⫸ ${prefix}rate [text]
-┋⫸ ${prefix}wangy [text]
-┋⫸ ${prefix}beautifulcheck [tag]
-┋⫸ ${prefix}awesomecheck [tag]
-┋⫸ ${prefix}prettycheck [tag]
-┋⫸ ${prefix}lesbiancheck [tag]
-┋⫸ ${prefix}gaycheck [tag]
-┋⫸ ${prefix}cutecheck [tag]
-┋⫸ ${prefix}uglycheck [tag]
-┋⫸ ${prefix}hornycheck [tag]
-┋⫸ ${prefix}charactercheck [tag]
-┋⫸ ${prefix}lovelycheck [tag]
-┋⫸ ${prefix}couple
-┋⫸ ${prefix}mysoulmate
-┋⫸ ${prefix}hot
-┋⫸ ${prefix}sexy
-┋⫸ ${prefix}kind
-┋⫸ ${prefix}handsome
-┋⫸ ${prefix}beautiful
-┋⫸ ${prefix}cute
-┋⫸ ${prefix}pretty
-┋⫸ ${prefix}lesbian
-┋⫸ ${prefix}noob
-┋⫸ ${prefix}bastard
-┋⫸ ${prefix}foolish
-┋⫸ ${prefix}nerd
-┋⫸ ${prefix}asshole
-┋⫸ ${prefix}gay
-┋⫸ ${prefix}smart
-┋⫸ ${prefix}stubble
-┋⫸ ${prefix}dog
-┋⫸ ${prefix}horny
-┋⫸ ${prefix}cunt
-┋⫸ ${prefix}wibu
-┋⫸ ${prefix}tictactoe
-┋⫸ ${prefix}delttt
-┋⫸ ${prefix}guess [option]
-┋⫸ ${prefix}math [mode]
-┋⫸ ${prefix}suitpvp [tag]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║     ◤ FUN MENU ◢	 
+║       
+║▢ ${prefix}how [text
+║▢ ${prefix}when [text]
+║▢ ${prefix}is [text]
+║▢ ${prefix}what [text]
+║▢ ${prefix}can [text]
+║▢ ${prefix}rate [text]
+║▢ ${prefix}wangy [text]
+║▢ ${prefix}beautifulcheck [tag]
+║▢ ${prefix}awesomecheck [tag]
+║▢ ${prefix}prettycheck [tag]
+║▢ ${prefix}lesbiancheck [tag]
+║▢ ${prefix}gaycheck [tag]
+║▢ ${prefix}cutecheck [tag]
+║▢ ${prefix}uglycheck [tag]
+║▢ ${prefix}hornycheck [tag]
+║▢ ${prefix}charactercheck [tag]
+║▢ ${prefix}lovelycheck [tag]
+║▢ ${prefix}couple
+║▢ ${prefix}mysoulmate
+║▢ ${prefix}hot
+║▢ ${prefix}sexy
+║▢ ${prefix}kind
+║▢ ${prefix}handsome
+║▢ ${prefix}beautiful
+║▢ ${prefix}cute
+║▢ ${prefix}pretty
+║▢ ${prefix}lesbian
+║▢ ${prefix}noob
+║▢ ${prefix}bastard
+║▢ ${prefix}foolish
+║▢ ${prefix}nerd
+║▢ ${prefix}asshole
+║▢ ${prefix}gay
+║▢ ${prefix}smart
+║▢ ${prefix}stubble
+║▢ ${prefix}dog
+║▢ ${prefix}horny
+║▢ ${prefix}cunt
+║▢ ${prefix}wibu
+║▢ ${prefix}tictactoe
+║▢ ${prefix}delttt
+║▢ ${prefix}guess [option]
+║▢ ${prefix}math [mode]
+║▢ ${prefix}suitpvp [tag]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ OWNER ◢	        
-┋⫸${prefix}grouplink
-┋⫸${prefix}ephemeral [option]
-┋⫸${prefix}setgcpp [image]
-┋⫸${prefix}setname [text]
-┋⫸${prefix}setdesc [text]
-┋⫸${prefix}group [text]
-┋⫸${prefix}editinfo [option]
-┋⫸${prefix}add [user]
-┋⫸${prefix}kick [reply/tag]
-┋⫸${prefix}hidetag [text]
-┋⫸${prefix}tagall [text]
-┋⫸${prefix}antilink [on/off]
-┋⫸${prefix}mute [on/off]
-┋⫸${prefix}promote [reply/tag]
-┋⫸${prefix}demote [reply/tag]
-┋⫸${prefix}vote
-┋⫸${prefix}devote
-┋⫸${prefix}upvote
-┋⫸${prefix}checkvote
-┋⫸${prefix}delvote
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║     ◤ OWNER MENU◢
+║	        
+║▢ ${prefix}grouplink
+║▢ ${prefix}ephemeral [option]
+║▢ ${prefix}setgcpp [image]
+║▢ ${prefix}setname [text]
+║▢ ${prefix}setdesc [text]
+║▢ ${prefix}group [text]
+║▢ ${prefix}editinfo [option]
+║▢ ${prefix}add [user]
+║▢ ${prefix}kick [reply/tag]
+║▢ ${prefix}hidetag [text]
+║▢ ${prefix}tagall [text]
+║▢ ${prefix}antilink [on/off]
+║▢ ${prefix}mute [on/off]
+║▢ ${prefix}promote [reply/tag]
+║▢ ${prefix}demote [reply/tag]
+║▢ ${prefix}vote
+║▢ ${prefix}devote
+║▢ ${prefix}upvote
+║▢ ${prefix}checkvote
+║▢ ${prefix}delvote
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ DOWNLOADER ◢	        
-┋⫸${prefix}ytmp3 [url|quality]
-┋⫸${prefix}ytmp4 [url|quality]
-┋⫸${prefix}getmusic [yt link]
-┋⫸${prefix}getvideo [yt link]
-┋⫸${prefix}umma [query]
-┋⫸${prefix}joox [query]
-┋⫸${prefix}soundcloud [url]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║  ◤ DOWNLOADER MENU ◢
+║	        
+║▢ ${prefix}ytmp3 [url|quality]
+║▢ ${prefix}ytmp4 [url|quality]
+║▢ ${prefix}getmusic [yt link]
+║▢ ${prefix}getvideo [yt link]
+║▢ ${prefix}umma [query]
+║▢ ${prefix}joox [query]
+║▢ ${prefix}soundcloud [url]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ SEARCHER ◢	        
-┋⫸${prefix}play [query]
-┋⫸${prefix}song [query]
-┋⫸${prefix}yts [query]
-┋⫸${prefix}google [query]
-┋⫸${prefix}gimage [query]
-┋⫸${prefix}pinterest [query]
-┋⫸${prefix}wallpaper [query]
-┋⫸${prefix}wikimedia [query]
-┋⫸${prefix}ytsearch [query]
-┋⫸${prefix}ringtone [query]
-┋⫸${prefix}webtoon [query]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ SEARCHER MENU ◢	
+║        
+║▢ ${prefix}play [query]
+║▢ ${prefix}song [query]
+║▢ ${prefix}yts [query]
+║▢ ${prefix}google [query]
+║▢ ${prefix}gimage [query]
+║▢ ${prefix}pinterest [query]
+║▢ ${prefix}wallpaper [query]
+║▢ ${prefix}wikimedia [query]
+║▢ ${prefix}ytsearch [query]
+║▢ ${prefix}ringtone [query]
+║▢ ${prefix}webtoon [query]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ RANDOM ◢	        
-┋⫸${prefix}coffee
-┋⫸${prefix}animequote (indo)
-┋⫸${prefix}couplepp
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ RANDOM MENU ◢	   
+║     
+║▢ ${prefix}coffee
+║▢ ${prefix}animequote 
+║▢ ${prefix}couplepp
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔✪◤ RANDOM ANIME ◢	        
-┋⫸${prefix}loli
-┋⫸${prefix}bully
-┋⫸${prefix}cuddle
-┋⫸${prefix}cry
-┋⫸${prefix}hug
-┋⫸${prefix}awoo
-┋⫸${prefix}kiss
-┋⫸${prefix}lick
-┋⫸${prefix}pat
-┋⫸${prefix}smug
-┋⫸${prefix}bonk
-┋⫸${prefix}yeet
-┋⫸${prefix}blush
-┋⫸${prefix}smile
-┋⫸${prefix}wave
-┋⫸${prefix}highfive
-┋⫸${prefix}handhold
-┋⫸${prefix}nom
-┋⫸${prefix}glomp
-┋⫸${prefix}bite
-┋⫸${prefix}slap
-┋⫸${prefix}kill
-┋⫸${prefix}happy
-┋⫸${prefix}wink
-┋⫸${prefix}poke
-┋⫸${prefix}dance
-┋⫸${prefix}cringe
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║   ◤ RANDOM ANIME ◢	 
+║       
+║▢ ${prefix}loli
+║▢ ${prefix}bully
+║▢ ${prefix}cuddle
+║▢ ${prefix}cry
+║▢ ${prefix}hug
+║▢ ${prefix}awoo
+║▢ ${prefix}kiss
+║▢ ${prefix}lick
+║▢ ${prefix}pat
+║▢ ${prefix}smug
+║▢ ${prefix}bonk
+║▢ ${prefix}yeet
+║▢ ${prefix}blush
+║▢ ${prefix}smile
+║▢ ${prefix}wave
+║▢ ${prefix}highfive
+║▢ ${prefix}handhold
+║▢ ${prefix}nom
+║▢ ${prefix}glomp
+║▢ ${prefix}bite
+║▢ ${prefix}slap
+║▢ ${prefix}kill
+║▢ ${prefix}happy
+║▢ ${prefix}wink
+║▢ ${prefix}poke
+║▢ ${prefix}dance
+║▢ ${prefix}cringe
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ TEXT PRO ◢	        
-┋⫸ ${prefix}3dchristmas [txt]
-┋⫸ ${prefix}3ddeepsea [txt]
-┋⫸ ${prefix}americanflag [txt]
-┋⫸ ${prefix}3dscifi [txt]
-┋⫸ ${prefix}3drainbow [txt]
-┋⫸ ${prefix}3dwaterpipe [txt]
-┋⫸ ${prefix}halloweenskeleton [txt]
-┋⫸ ${prefix}sketch [txt]
-┋⫸ ${prefix}bluecircuit [txt]
-┋⫸ ${prefix}space [txt]
-┋⫸ ${prefix}metallic [txt]
-┋⫸ ${prefix}fiction [txt]
-┋⫸ ${prefix}greenhorror [txt]
-┋⫸ ${prefix}transformer [txt]
-┋⫸ ${prefix}berry [txt]
-┋⫸ ${prefix}thunder [txt]
-┋⫸ ${prefix}magma [txt]
-┋⫸ ${prefix}3dcrackedstone [txt]
-┋⫸ ${prefix}3dneonlight [txt]
-┋⫸ ${prefix}impressiveglitch [txt]
-┋⫸ ${prefix}naturalleaves [txt]
-┋⫸ ${prefix}fireworksparkle [txt]
-┋⫸ ${prefix}matrix [txt]
-┋⫸ ${prefix}dropwater [txt]
-┋⫸ ${prefix}harrypotter [txt]
-┋⫸ ${prefix}foggywindow [txt]
-┋⫸ ${prefix}neondevils [txt]
-┋⫸ ${prefix}christmasholiday [txt]
-┋⫸ ${prefix}3dgradient [txt]
-┋⫸ ${prefix}blackpink [txt]
-┋⫸ ${prefix}gluetext [txt]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║   ◤ TEXT PRO MENU◢	
+║        
+║▢ ${prefix}3dchristmas [txt]
+║▢ ${prefix}3ddeepsea [txt]
+║▢ ${prefix}americanflag [txt]
+║▢ ${prefix}3dscifi [txt]
+║▢ ${prefix}3drainbow [txt]
+║▢ ${prefix}3dwaterpipe [txt]
+║▢ ${prefix}halloweenskeleton [txt]
+║▢ ${prefix}sketch [txt]
+║▢ ${prefix}bluecircuit [txt]
+║▢ ${prefix}space [txt]
+║▢ ${prefix}metallic [txt]
+║▢ ${prefix}fiction [txt]
+║▢ ${prefix}greenhorror [txt]
+║▢ ${prefix}transformer [txt]
+║▢ ${prefix}berry [txt]
+║▢ ${prefix}thunder [txt]
+║▢ ${prefix}magma [txt]
+║▢ ${prefix}3dcrackedstone [txt]
+║▢ ${prefix}3dneonlight [txt]
+║▢ ${prefix}impressiveglitch [txt]
+║▢ ${prefix}naturalleaves [txt]
+║▢ ${prefix}fireworksparkle [txt]
+║▢ ${prefix}matrix [txt]
+║▢ ${prefix}dropwater [txt]
+║▢ ${prefix}harrypotter [txt]
+║▢ ${prefix}foggywindow [txt]
+║▢ ${prefix}neondevils [txt]
+║▢ ${prefix}christmasholiday [txt]
+║▢ ${prefix}3dgradient [txt]
+║▢ ${prefix}blackpink [txt]
+║▢ ${prefix}gluetext [txt]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ CONVERTER ◢	        
-┋⫸ ${prefix}toimage [reply stick]
-┋⫸ ${prefix}sticker [reply img|gif]
-┋⫸ ${prefix}emojimix [moji+moji]
-┋⫸ ${prefix}tovideo [reply img]
-┋⫸ ${prefix}togif [reply stick]
-┋⫸ ${prefix}tourl [reply media]
-┋⫸ ${prefix}tovn [reply aud]
-┋⫸ ${prefix}tomp3 [reply vn]
-┋⫸ ${prefix}toaudio [reply vid]
-┋⫸ ${prefix}ebinary [reply txt]
-┋⫸ ${prefix}dbinary [reply txt]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║   ◤ CONVERTER MENU◢	
+║        
+║▢ ${prefix}toimage [reply stick]
+║▢ ${prefix}sticker [reply img|gif]
+║▢ ${prefix}emojimix [moji+moji]
+║▢ ${prefix}tovideo [reply img]
+║▢ ${prefix}togif [reply stick]
+║▢ ${prefix}tourl [reply media]
+║▢ ${prefix}tovn [reply aud]
+║▢ ${prefix}tomp3 [reply vn]
+║▢ ${prefix}toaudio [reply vid]
+║▢ ${prefix}ebinary [reply txt]
+║▢ ${prefix}dbinary [reply txt]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═══✪◤ DATABASE ◢	        
-┋⫸ ${prefix}setcmd
-┋⫸ ${prefix}listcmd
-┋⫸ ${prefix}delcmd
-┋⫸ ${prefix}lockcmd
-┋⫸ ${prefix}addmsg
-┋⫸ ${prefix}listmsg
-┋⫸ ${prefix}getmsg
-┋⫸ ${prefix}delmsg
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ DATABASE CMD ◢	 
+║       
+║▢ ${prefix}setcmd
+║▢ ${prefix}listcmd
+║▢ ${prefix}delcmd
+║▢ ${prefix}lockcmd
+║▢ ${prefix}addmsg
+║▢ ${prefix}listmsg
+║▢ ${prefix}getmsg
+║▢ ${prefix}delmsg
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ ANONYMOUS CHAT ◢	        
-┋⫸${prefix}anonymous
-┋⫸${prefix}start
-┋⫸${prefix}next
-┋⫸${prefix}leave
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
-break
-case 'islamicmenu':
-var unicorn = await getBuffer(picak+'Islamic Menu')
-await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ ISLAMIC ◢	        
-┋⫸${prefix}juzamma
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║   ◤ ANONYMOUS CHAT ◢
+║	        
+║▢ ${prefix}anonymous
+║▢ ${prefix}start
+║▢ ${prefix}next
+║▢ ${prefix}leave
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ VOICE CHANGER ◢	        
-┋⫸${prefix}bass [reply aud]
-┋⫸${prefix}blown [reply aud]
-┋⫸${prefix}deep [reply aud]
-┋⫸${prefix}earrape [reply aud]
-┋⫸${prefix}fast [reply aud]
-┋⫸${prefix}fat [reply aud]
-┋⫸${prefix}nightcore [reply aud]
-┋⫸${prefix}reverse [reply aud]
-┋⫸${prefix}robot [reply aud]
-┋⫸${prefix}slow [reply aud]
-┋⫸${prefix}squirrel [reply aud]
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║    ◤ VOICE CHANGER ◢
+║	        
+║▢ ${prefix}bass [reply aud]
+║▢ ${prefix}blown [reply aud]
+║▢ ${prefix}deep [reply aud]
+║▢ ${prefix}earrape [reply aud]
+║▢ ${prefix}fast [reply aud]
+║▢ ${prefix}fat [reply aud]
+║▢ ${prefix}nightcore [reply aud]
+║▢ ${prefix}reverse [reply aud]
+║▢ ${prefix}robot [reply aud]
+║▢ ${prefix}slow [reply aud]
+║▢ ${prefix}squirrel [reply aud]
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ HOROSCOPE ◢	        
-┋⫸${prefix}nomorhoki (indo)
-┋⫸${prefix}artimimpi (indo)
-┋⫸${prefix}artinama (indo)
-┋⫸${prefix}ramaljodoh (indo)
-┋⫸${prefix}ramaljodohbali (indo)
-┋⫸${prefix}suamiistri (indo)
-┋⫸${prefix}ramalcinta (indo)
-┋⫸${prefix}cocoknama (indo)
-┋⫸${prefix}pasangan (indo)
-┋⫸${prefix}jadiannikah (indo)
-┋⫸${prefix}sifatusaha (indo)
-┋⫸${prefix}rezeki (indo)
-┋⫸${prefix}pekerjaan (indo)
-┋⫸${prefix}nasib (indo)
-┋⫸${prefix}penyakit (indo)
-┋⫸${prefix}tarot (indo)
-┋⫸${prefix}fengshui (indo)
-┋⫸${prefix}haribaik (indo)
-┋⫸${prefix}harisangar (indo)
-┋⫸${prefix}harisial (indo)
-┋⫸${prefix}nagahari (indo)
-┋⫸${prefix}arahrezeki (indo)
-┋⫸${prefix}peruntungan (indo)
-┋⫸${prefix}weton (indo)
-┋⫸${prefix}karakter (indo)
-┋⫸${prefix}keberuntungan (indo)
-┋⫸${prefix}memancing (indo)
-┋⫸${prefix}masasubur (indo)
-┋⫸${prefix}zodiak (indo)
-┋⫸${prefix}shio (indo)
-┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+╭───╼ ○ ${botname}
+╽
+║   ◤ HOROSCOPE MENU ◢	
+║        
+║▢ ${prefix}nomorhoki 
+║▢ ${prefix}artimimpi 
+║▢ ${prefix}artinama 
+║▢ ${prefix}ramaljodoh 
+║▢ ${prefix}ramaljodohbali 
+║▢ ${prefix}suamiistri 
+║▢ ${prefix}ramalcinta 
+║▢ ${prefix}cocoknama 
+║▢ ${prefix}pasangan 
+║▢ ${prefix}jadiannikah 
+║▢ ${prefix}sifatusaha 
+║▢ ${prefix}rezeki 
+║▢ ${prefix}pekerjaan 
+║▢ ${prefix}nasib 
+║▢ ${prefix}penyakit 
+║▢ ${prefix}tarot 
+║▢ ${prefix}fengshui 
+║▢ ${prefix}haribaik 
+║▢ ${prefix}harisangar 
+║▢ ${prefix}harisial 
+║▢ ${prefix}nagahari 
+║▢ ${prefix}arahrezeki 
+║▢ ${prefix}peruntungan 
+║▢ ${prefix}weton 
+║▢ ${prefix}karakter 
+║▢ ${prefix}keberuntungan 
+║▢ ${prefix}memancing 
+║▢ ${prefix}masasubur 
+║▢ ${prefix}zodiak 
+║▢ ${prefix}shio 
+║
+╚═══ ○ ${pushname} ○`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await CutieTTM.send5ButImg(from, `` + '' + ' ', `
-Thanks to My fiends and my knowledge 💦`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+Thanks to My fiends and my knowledge`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
