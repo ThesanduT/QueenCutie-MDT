@@ -48,7 +48,7 @@
     <img src="https://img.shields.io/static/v1?label=Author&message=Thesandu&color=rgb&style=plastic">
 
   </a>
-  <a href="https://wa.me/+94778763517">
+  <a href="https://api.whatsapp.com/send?phone=+94778763517">
     <img src="https://img.shields.io/badge/Whatsapp-Queen%20Cutie-yellow&style=plastic">
 
   </a>
@@ -115,11 +115,10 @@ $ node index.js
 ----
 
 ##  Guide
-Click WA logo to Join Support Group 👇
+Click WA logo to Join Support Group
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7)
-  <div align="center">
+  <a href="https://chat.whatsapp.com/IiJaP6ZWQkrAD3zqw5IIG7"><img src="https://img.shields.io/badge/join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ThesanduT&repo=QueenCutie-MD&theme=nightowl)](https://github.com/ThesanduT/QueenCutie-MD)
   </div>
@@ -137,9 +136,9 @@ and you ended up in being fight with WhatsApp
 and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
 If you need help
-you can contact 👇 
+you can contact
 
-**[![Thesandu](https://th.bing.com/th/id/R.1be049116cfedb1dd15532a594bbe428?rik=j6jz1Lh4ilcTIA&riu=http%3a%2f%2fmedia.withtank.com%2f524cc5fc6e%2flogo-whatsapp_580_wide.png&ehk=Cdagr7ozMeWsqikLpJpA0B9s4gTywcGFQim3b5sBaVE%3d&risl=&pid=ImgRaw&r=0)](http://wa.me/94778763517?text=Can%20you%20help%20me)**
+<a href="https://api.whatsapp.com/send?phone=+94778763517"><img src="https://img.shields.io/badge/Contact Creator-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
     
 
 ## License
