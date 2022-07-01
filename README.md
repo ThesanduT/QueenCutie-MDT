@@ -79,7 +79,7 @@ Created by `THESANDU THEWSARA`
  
  2)Now click on Run on Replit button to scan qr code *Scan this QR with the number you want to create the bot*
  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ThesanduT/QueenCutie-MD)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ThesanduT/QueenCutieMD)
 
  `3)After you scan the QR, upload the session file that came to you from your number.`
   
