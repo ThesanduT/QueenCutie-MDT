@@ -51,7 +51,7 @@ global.author = 'ᴛʜᴇꜱᴀɴᴅᴜ ᴛʜᴇᴡꜱᴀʀᴀ'
 
 global.sessionName = 'session'
 
-global.prefa = ['','!','.','❄','🖤','☃']
+global.prefa = ['','!','.']
 
 global.sp = '◈'
 
