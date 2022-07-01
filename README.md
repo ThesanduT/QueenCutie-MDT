@@ -85,11 +85,11 @@ Created by `THESANDU THEWSARA`
   
  4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically
  
- ## `SETTINGS`
+ ## SETTINGS
 
-- CHANGE OWNER NUMBER [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
-- CHANGE OWNER NAME [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
-- CHANGE BOT NAME [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
+`You can change owner number,name and others by clicking settings.json (Don't change other external names or symbols) - So the bot may crash.`
+
+## NOW DEPLOY
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
 
