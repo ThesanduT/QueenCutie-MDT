@@ -1,7 +1,7 @@
 {
-  "name": "Gojo-Satoru",
+  "name": "QueenCutie-MD",
   "version": "2.0.0",
-  "description": "WhatsApp Using Lib Baileys Multi Device",
+  "description": "Enjoy now QueenCutie bot",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,12 +18,16 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "NexusNw",
+  "author": "ThesanduT",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "git+https://github.com/ThesanduT/Baileys.git",
+    "@adiwajshing/baileys": "^4.0.1",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "awesome-phonenumber": "^2.64.0",
+    "@develoka/angka-terbilang-js": "^1.4.2",
+    "@shineiichijo/marika": "^2.0.2",
+    "@shineiichijo/nhentai-pdf": "^1.0.5",
+    "@bochilteam/scraper": "^2.0.0",
+    "awesome-phonenumber": "^2.70.0",
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
