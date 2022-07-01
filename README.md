@@ -79,11 +79,17 @@ Created by `THESANDU THEWSARA`
  
  2)Now click on Run on Replit button to scan qr code *Scan this QR with the number you want to create the bot*
  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ThesanduT/QueenCutieMD)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ThesanduT/QueenCutie-MD)
 
  `3)After you scan the QR, upload the session file that came to you from your number.`
   
- 4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically   
+ 4)Finally click deploy button and give a name there with simple characters and wait a minute until the bot is made automatically
+ 
+ ## `SETTINGS`
+
+- CHANGE OWNER NUMBER [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
+- CHANGE OWNER NAME [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
+- CHANGE BOT NAME [Here](https://github.com/ThesanduT/QueenCutie-MD/blob/master/settings.json)
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThesanduT/QueenCutie-MD) 
 
